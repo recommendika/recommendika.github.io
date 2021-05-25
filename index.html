@@ -1,69 +1,393 @@
 <html>
 <head>
-<title>recommendika</title>
-<link rel="stylesheet" href="sst.css">
-<script src="myscript.js"></script>
+    <title>recommendika | home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style\main_style.css">
+<link rel="stylesheet" href="style\style.css">
+<script src="js\myscript.js"></script>
+<script src="js\main_js.js"></script>
+
 </head>
 <body>
+    <div id="mySidenav1" class="sidenav1">
+        <div class='sidenavtop1'>
+                <a class="closebtn" onclick="closeNav()" style="cursor: grab;">&times;</a>
+                <a href="about.html">about</a>
+                <a href="cont.html">contribute</a>
+                <a href="faq.html">faq</a>
+                <a href="toprk.html">top rkmnd'ers</a>
+                <a href="feedb.html">feedback</a>
+                <a href="#">google sheet</a>
+           </div>
+        <footer id="sec-foot" class="social-link">
+            <a href="https://github.com/recommendika/recommendika.github.io" target="_blank" class='sidenavbtm'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+    
+            <a href="mailto:#" class="mail" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(182, 133, 77)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+    
+            <a href="#" class='sidenavbtm'>
+            <svg class="h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  viewBox="0 0 20 20"><g><circle fill="#FFF" cx="10" cy="10" r="10"></circle><path fill="#000" d="M16.67,10A1.46,1.46,0,0,0,14.2,9a7.12,7.12,0,0,0-3.85-1.23L11,4.65,13.14,5.1a1,1,0,1,0,.13-0.61L10.82,4a0.31,0.31,0,0,0-.37.24L9.71,7.71a7.14,7.14,0,0,0-3.9,1.23A1.46,1.46,0,1,0,4.2,11.33a2.87,2.87,0,0,0,0,.44c0,2.24,2.61,4.06,5.83,4.06s5.83-1.82,5.83-4.06a2.87,2.87,0,0,0,0-.44A1.46,1.46,0,0,0,16.67,10Zm-10,1a1,1,0,1,1,1,1A1,1,0,0,1,6.67,11Zm5.81,2.75a3.84,3.84,0,0,1-2.47.77,3.84,3.84,0,0,1-2.47-.77,0.27,0.27,0,0,1,.38-0.38A3.27,3.27,0,0,0,10,14a3.28,3.28,0,0,0,2.09-.61A0.27,0.27,0,1,1,12.48,13.79Zm-0.18-1.71a1,1,0,1,1,1-1A1,1,0,0,1,12.29,12.08Z"></path></g></svg></a>
+    
+            <a href="#" class='sidenavbtm active-tab'>" rkmnd should be read as recommend "</a>
+            <a href="\index.html" class='sidenavbtm'><b>rkmnd.org</b></a>
+        </footer>
+    </div>
+    
+<div id="main">
+    <div class="main-head">
+    <span class="menubtn" onclick="openNav()" style="cursor: grab;">&#9776</span>
+	<h1 style="display:inline;"><span>Ricom<sup>2</sup>endi</span></h1><h1 class='hindi' style="display: inline; color: yellow;">dk</h1>
+		<p>
+            tab containing  [ &#10684; ] are not enough populated. you can contribute to expand it.
+		</p>
+    </div>
 
-<div id="mySidenav1" class="sidenav1">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	<div class='sidenavtop'>
-	  <a href="about.html">about</a>
-	  <a href="cont.html">contribute</a>
-	  <a href="faq.html">faq</a>
-	  <a href="toprk.html">top rkmnd'ers</a>
-	  <a href="feedb.html">feedback</a>
-	  <footer>
-	  <a href="#" class='sidenavbtm'>
-	  	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
-	  <a href="#" class='sidenavbtm'>" rkmnd should be read as recommend "</a>
-	  </footer>
+<div class="main-list center">
+    <div class="main-sel">
+        <button class="tablinks" onclick="openCat(event, 'learn')">learn</button>
+        <button class="tablinks" onclick="openCat(event, 'create')">create &#10684;</button>
+        <button class="tablinks" onclick="openCat(event, 'tools')">tools &#10684;</button>
     </div>
 </div>
 
-<div id="main">
 
-<span class="menubtn" onclick="openNav()">&#9776</span>
-<h1 style="display:inline;"><span>Ricom<sup>2</sup>endi</span><h1 class='hindi' style="display: inline;">dk</h1>
-<p>explore menus.
-	last updated 8th may 2021. click on &#9776
-<span><h1> <marquee>the site is still under construction
-</marquee></span></h1>
-<p><center>
-	<h3>till than you can watch<br>
- <a href="https://www.youtube.com/channel/UCatL-c6pmnjzEOHSyjn-sHA">Khan GS Research Centre</a><sup >हिन्दी</sup>
- <h2>the site will likely be online in</h2>
- <h3>
- <p id="demo2" style="font-size:30px"></p></h3>
-<hr width=25%></center>
-</h3>
+<div class="category-list center">
+    <!--start | learn-->
+    <div id="learn" class="category">
+        <button class="tablinks" onclick="openDis(event, 'science')">science & maths</button>
+        <button class="tablinks" onclick="openDis(event, 'cs')">computer science &#10684;</button>
+        <button class="tablinks" onclick="openDis(event, 'humanities')">humanities &#10684;</button>
+        <button class="tablinks" onclick="openDis(event, 'arts')">art &#10684;</button>
+        <button class="tablinks" onclick="openDis(event, 'language')">language &#10684;</button>
+    </div>
+    <!--ends | learn-->
+
+    <!--start | create-->
+    <div id="create" class="category">
+        <button class="tablinks" onclick="openDis(event, 'arts-cr')">art</button>
+        <button class="tablinks" onclick="openDis(event, 'maths')">programs</button>
+        <button class="tablinks" onclick="openDis(event, 'arts')">art</button>
+    </div>
+    <!--ends | create-->
+
+    <!--start | tools-->
+    <div id="tools" class="category">
+        <button class="tablinks" onclick="openDis(event, 't00ls')">privacy, productivity, multimedia</button>
+    </div>
+    <!--ends | tools-->
+
+    <!-- to add new category
+        
+    <div id="-----" class="category">
+        <button class="tablinks" onclick="openDis(event, '-----' ">-------------</button>
+    </div>
+    -->
+   
 </div>
 
-</body>
+
+<div class="discipline-list center">
+    <!--start | learn > science-->
+    <div id="science" class="discipline">
+        <button class="tablinks" onclick="openMainList(event, 'physics')">physics</button>
+        <button class="tablinks" onclick="openMainList(event, 'maths')">maths</button>
+        <button class="tablinks" onclick="openMainList(event, 'chemistry')">chemistry &#10684;</button>
+        <button class="tablinks" onclick="openMainList(event, 'biology')">biology &#10684;</button>
+        <button class="tablinks" onclick="openMainList(event, 'pscience')">popular science</button>
+        
+    </div>
+    <!--ends | learn > science-->
+
+    <!--start | learn > cs-->
+    <div id="cs" class="discipline">
+        <button class="tablinks" onclick="openMainList(event, 'web-dev')">web dev</button>
+        <button class="tablinks" onclick="openMainList(event, 'python')">python</button>
+        <button class="tablinks" onclick="openMainList(event, 'dbs')">database</button>
+        <button class="tablinks" onclick="openMainList(event, 'network')">network</button>
+        <button class="tablinks" onclick="openMainList(event, 'cyber')">cyber security</button>
+        <button class="tablinks" onclick="openMainList(event, 'ai')">ai | ml</button>
+    </div>
+    <!--ends | learn > cs-->
+
+    <!--start | learn > humanities-->
+    <div id="humanities" class="discipline">
+        <button class="tablinks" onclick="openMainList(event, 'psychology')">psychology</button>
+        <button class="tablinks" onclick="openMainList(event, 'economics')">economics</button>
+        <button class="tablinks" onclick="openMainList(event, 'geography')">geography</button>
+        <button class="tablinks" onclick="openMainList(event, 'history')">history</button>
+        <button class="tablinks" onclick="openMainList(event, 'civics')">civics</button>
+    </div>
+    <!--ends | learn > humanities-->
+
+    <!--start | learn > arts-->
+    <div id="arts" class="discipline">
+        <button class="tablinks" onclick="openMainList(event, 'music-l')">music prod.</button>
+        <button class="tablinks" onclick="openMainList(event, 'video-l')">video prod.</button>
+        <button class="tablinks" onclick="openMainList(event, '2d-l')">2d animation</button>
+        <button class="tablinks" onclick="openMainList(event, '3d-l')">3d animation</button>
+    </div>
+    <!--ends | learn > arts-->
+
+    <!--start | learn > language-->
+    <div id="language" class="discipline">
+        <button class="tablinks" onclick="openMainList(event, 'sanskrit')">संस्कृत</button>
+    </div>
+    <!--ends | learn > language-->
+
+    <!-- for new discipline copy and paste
+        <button class="tablinks" onclick="openMainList(event, '    ')">     </button>
+    -->
+</div>
+
+
+<!--start | learn > science > physics-->
+<div id="physics" class="listContent center">
+    
+
+        <ul id="section-head">
+            <li><span class="caret">VIDEO <span class="tags">02</span></span>
+                <ul class="nested">
+                <li>
+                    <a href="https://www.youtube.com/playlist?list=PLF_7kfnwLFCHjzvhflQjAOG97MgutH3Z5" target="_blank">
+                    Physics Wallah - Alakh Pandey</a>
+                    <span class="tags"> हिन्दी ; 12th ; yt</span>
+                    <span class="tooltip"> &#9910;
+                        <span class="tooltiptext">
+                            rkmnd'ed by:- r001 <br>
+                            ""made me fall in love with physics again"
+                            ! watch the videos uploaded between 2017-2019'
+                        </span>
+                    </span>
+                </li> 
+                <li>
+                    <a href="https://www.youtube.com/playlist?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e"
+                    target="_blank">Lectures by Walter Lewin </a>
+                    <span class="tags">ug ; yt</span>
+                    <span class="tooltip"> &#9910; 
+                        <span class="tooltiptext">   
+                        rkmnd'ed by :- r002<br>
+                        "no testimonial available" <br>
+                        </span>
+                    </span>
+                </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="section-head">
+            <li><span class="caret">COURSES<span class="tags">01</span></span>
+            <ul class="nested">
+                <li>
+                    <a href="https://ocw.mit.edu/courses/physics/"
+                    target="_blank">Physics | MIT OpenCourseWare  </a>
+                    <span class="tags">ug/pg ; web</span>
+                    <span class="tooltip"> &#9910;
+                        <span class="tooltiptext">   
+                        rkmnd'ed by :- r001<br>
+                        "no testimonial available" <br>
+                        </span>
+                    </span>
+                </li>  
+            </ul>
+            </li>
+    </ul>
+        <ul id="section-head">
+                <li><span class="caret">AUDIO</span>
+                <ul class="nested">
+                    <li>No resourse</li>  
+                </ul>
+                </li>
+        </ul>
+        <ul id="section-head">
+                <li><span class="caret">WEBSITE<span class="tags">01</span></span>
+                <ul class="nested">
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Portal:Physics"
+                        target="_blank">Wikipedia  </a>
+                        <span class="tags">multi-lang</span>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001<br>
+                            "no testimonial available" <br>
+                            </span>
+                        </span>
+                    </li>   
+                </ul>
+                </li>
+        </ul>
+        <ul id="section-head">
+                <li><span class="caret">TEXT BOOK</span>
+                <ul class="nested">
+ 
+                </ul>
+                </li>
+        </ul>
+        <ul id="section-head">
+                <li><span class="caret">3D<span class="tags">01</span></span>
+                <ul class="nested">
+                    <li>
+                        <a href="http://labman.phys.utk.edu/3D%20Physics/"
+                        target="_blank">3D PHYSICS(The University of Tennessee)  </a>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001<br>
+                            "no testimonial available" <br>
+                            </span>
+                        </span>
+                    </li> 
+ 
+                </ul>
+                </li>
+        </ul>
+        <ul id="section-head">
+                <li><span class="caret">PRACTICAL, EXPERIMENT & SIM (2D)<span class="tags">03</span></span>
+                <ul class="nested">
+                    <li>
+                        <a href = "https://phet.colorado.edu/en/simulations/filter?subjects=physics&levels=university"
+                        target="_blank">PhET Interactive Simulations  </a>
+                        <span class="tags">multi-lang</span>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001  <br>
+                            no testimonial available,  <br>       
+                            </span>
+                        </span>
+                    </li> 
+                    <li>
+                        <a href = "https://ophysics.com/"
+                        target="_blank">oPhysics: Interactive Phy. Sim.  </a>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001  <br>
+                            no testimonial available,  <br>       
+                            </span>
+                        </span>
+                    </li> 
+                    <li>
+                        <a href="https://www.myphysicslab.com/" 
+                        target="_blank">my Physics Lab  </a>
+                        <span class="tags">en/de</span>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001<br>
+                            "... and dont forget to check out the graphs, they are amazing ... " <br>
+                            </span>
+                        </span>
+                    </li> 
+
+                
+                </ul>
+                </li>
+        </ul>
+        <ul id="section-head">
+                <li><span class="caret">RESEARCH PAPER<span class="tags">01</span></span>
+                <ul class="nested">
+                    <li>
+                        <a href="https://arxiv.org/"
+                        target="_blank">arXiv  </a>
+                        <span class="tags">pdf</span>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001<br>
+                            "no testimonial available" <br>
+                            </span>
+                        </span>
+                    </li>  
+                </ul>
+                </li>
+        </ul>
+        <ul id="section-head">
+                <li><span class="caret">COMMUNITY<span class="tags">03</span></span>
+                <ul class="nested">
+                    <li>
+                        <a href="https://physics.stackexchange.com/"
+                        target="_blank">Physics Stack Exchange  </a>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001<br>
+                            "no testimonial available" <br>
+                            </span>
+                        </span>
+                    </li> 
+                    <li>
+                        <a href="https://www.reddit.com/r/Physics/"
+                        target="_blank">r/Physics  </a>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001<br>
+                            "no testimonial available" <br>
+                            </span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://www.reddit.com/r/AskPhysics"
+                        target="_blank">r/AskPhysics  </a>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001<br>
+                            "no testimonial available" <br>
+                            </span>
+                        </span>
+                    </li>   
+                </ul>
+                </li>
+        </ul>
+</div>
+<!--ends | learn > science > physics-->
+
+
+<div id='default-msg' class="listContent center" style="display: flex;">
+<p>
+    Welcome to recommendika<br>
+    select the appropriate tab from above<br>
+    website is still in beta.<br>
+    best viewed on large screen.<br><br><br>
+    defaults (otherwise stated):<br>
+    language: english
+    
+</p>  
+
+
+
+
+
+</div>
+
+</div>
+<footer id="main-foot" class="main-footer">
+    <span class="last-upp">#recommendika</span>
+    
+    <span class="last-up">last updated : 24 May 2021</span>
+</footer>
 <script>
+    var toggler = document.getElementsByClassName("caret");
+	var i;
+	for (i = 0; i < toggler.length; i++) {
+	  toggler[i].addEventListener("click", function() {
+		this.parentElement.querySelector(".nested").classList.toggle("active");
+		this.classList.toggle("caret-down");
+	  });
+	}
 
-var countDownDate = new Date("May 16, 2021 00:00:00").getTime();
+</script>   
+</body>
+</html> 
+<!-- to add a new resourse ctrl+c/v
+                <li>
+                    <a href="   ------     "
+                    target="_blank">       -----        </a>
+                    <span class="tags">     ------         </span>
+                    <span class="tooltip"> &#9910;
+                        <span class="tooltiptext">   
+                        rkmnd'ed by :- none  <br>
+                        no testimonial available,  <br>
+                        "                       "
+        
+                        </span>
+                    </span>
+                </li> 
 
 
-var countdownfunction = setInterval(function() {
 
 
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  
-  if (distance < 0) {
-    clearInterval(countdownfunction);
-    document.getElementById("demo2").innerHTML = "I'm late to the party";
-  }
-}, 1000);
-</script>
-</html>
-
+-->
