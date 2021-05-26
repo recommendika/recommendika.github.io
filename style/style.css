@@ -31,11 +31,13 @@ h1{
 }
 
 a:link {
-  color: yellow;
+  color: white;
+  text-decoration: underline dashed 0.5px;
+  text-underline-offset: 20%;
 }
 
 a:visited {
-  color: greenyellow;
+  color: #a6a4a4;
 }
 
 a:hover {
@@ -257,8 +259,8 @@ a:active {
   font-family: courier;
   font-weight: bold;
   vertical-align: super;
-  font-size: 70%; 
-  border-radius: 20px;
+  font-size: 50%; 
+  border-radius: 5px;
 }
 
 
@@ -312,12 +314,18 @@ ul, #section-head {
 .active {
   display: block;
 }
-
+.w-list{
+  padding-inline-start: 0px;
+}
+.w-caret{
+  list-style-type: none;
+  font-size: 120%;
+  padding: 5px;
+}
 
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
   vertical-align: super; 
   background-color: black;
   font-size: 70%;

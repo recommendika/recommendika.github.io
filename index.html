@@ -36,8 +36,8 @@
     
 <div id="main">
     <div class="main-head">
-    <span class="menubtn" onclick="openNav()" style="cursor: grab;">&#9776</span>
-	<h1 style="display:inline;"><span>Ricom<sup>2</sup>endi</span></h1><h1 class='hindi' style="display: inline; color: yellow;">dk</h1>
+    <span class="menubtn" onclick="openNav()" style="cursor: grab;">&#9776</span><center>
+	<h1 style="display:inline;"><span>Ricom<sup>2</sup>endi</span></h1><h1 class='hindi' style="display: inline; color: yellow;">का</h1></center>
 		<p>
             tab containing  [ &#10684; ] are not enough populated. you can contribute to expand it.
 		</p>
@@ -48,6 +48,7 @@
         <button class="tablinks" onclick="openCat(event, 'learn')">learn</button>
         <button class="tablinks" onclick="openCat(event, 'create')">create &#10684;</button>
         <button class="tablinks" onclick="openCat(event, 'tools')">tools &#10684;</button>
+        <button class="tablinks" onclick="openCat(event, 'wander')">wander</button>
     </div>
 </div>
 
@@ -76,6 +77,12 @@
         <button class="tablinks" onclick="openDis(event, 't00ls')">privacy, productivity, multimedia</button>
     </div>
     <!--ends | tools-->
+
+    <!--start | wander-->
+    <div id="wander" class="category">
+        <button class="tablinks" onclick="openDis(event, 'wander-list')">websites & youtube</button>
+    </div>
+    <!--ends | wander-->
 
     <!-- to add new category
         
@@ -135,6 +142,15 @@
     </div>
     <!--ends | learn > language-->
 
+    <!--start | wander-->
+    <div id="wander-list" class="discipline">
+        <button class="tablinks" onclick="openMainList(event, 'w-web')">websites</button>
+        <button class="tablinks" onclick="openMainList(event, 'w-yt-ch')">yt-channels</button>
+        <button class="tablinks" onclick="openMainList(event, 'w-yt-vid')">yt-videos</button>
+        <button class="tablinks" onclick="openMainList(event, 'w-m-d')">music & dance</button>
+    </div>
+    <!--ends | wander-->
+
     <!-- for new discipline copy and paste
         <button class="tablinks" onclick="openMainList(event, '    ')">     </button>
     -->
@@ -151,7 +167,7 @@
                 <li>
                     <a href="https://www.youtube.com/playlist?list=PLF_7kfnwLFCHjzvhflQjAOG97MgutH3Z5" target="_blank">
                     Physics Wallah - Alakh Pandey</a>
-                    <span class="tags"> हिन्दी ; 12th ; yt</span>
+                    <span class="tags"> हिन्दी ; G-12</span>
                     <span class="tooltip"> &#9910;
                         <span class="tooltiptext">
                             rkmnd'ed by:- r001 <br>
@@ -163,7 +179,7 @@
                 <li>
                     <a href="https://www.youtube.com/playlist?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e"
                     target="_blank">Lectures by Walter Lewin </a>
-                    <span class="tags">ug ; yt</span>
+                    <span class="tags">ug</span>
                     <span class="tooltip"> &#9910; 
                         <span class="tooltiptext">   
                         rkmnd'ed by :- r002<br>
@@ -190,7 +206,7 @@
                 </li>  
             </ul>
             </li>
-    </ul>
+        </ul>
         <ul id="section-head">
                 <li><span class="caret">AUDIO</span>
                 <ul class="nested">
@@ -335,16 +351,209 @@
 </div>
 <!--ends | learn > science > physics-->
 
+<div id="w-web" class="listContent w-center">
+    <ul class="w-list">
+        <li  class="w-caret last-up">
+            &#9910; WEBSITES &#9910;
+        </li>
+        <li  class="w-caret">
+            <a href="https://www.google.com/intl/en_in/earth/"
+            target="_blank">Google Earth </a>
+        </li> 
+        <li  class="w-caret">
+            <a href="https://libraryofbabel.info/"
+            target="_blank">Library of Babel</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://voyager.jpl.nasa.gov/mission/status/"
+            target="_blank">Voyager - Mission Status</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://himawari8.nict.go.jp/"
+            target="_blank">Himawari-8 Real-time Web - NICT</a>
+        </li>  
+        <li  class="w-caret">
+            ...
+        </li>
+        <li  class="w-caret last-up">
+            CONTRIBUTE
+        </li>
+        <li  class="w-caret">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQxaee950iUQYHySaUTv_0uANHAxilkBgt7svelT875wcIVw/viewform?usp=sf_link"
+            target="_blank">Add one yourself [Google Form]</a>
+        </li>   
 
-<div id='default-msg' class="listContent center" style="display: flex;">
-<p>
+    </ul>
+</div>
+<div id="w-yt-ch" class="listContent w-center">
+    <ul class="w-list">
+        <li  class="w-caret last-up">
+            &#9910; CHANNELS &#9910;
+        </li>
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/c/veritasium"
+            target="_blank">Veritasium</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/user/Kurzgesagt"
+            target="_blank">Kurzgesagt – In a Nutshell</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/c/PrimerLearning"
+            target="_blank">Primer</a>
+        </li> 
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/playlist?list=PLZRRxQcaEjA5WaVaMtEB86yVXSH-XZ8eT"
+            target="_blank">Vsauce</a>
+        </li> 
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/user/dominicwalliman"
+            target="_blank">DoS - Domain of Science</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/user/captainranic"
+            target="_blank">Jared Owen</a>
+        </li> 
+        <li  class="w-caret">
+            ...
+        </li> 
+        <li  class="w-caret last-up">
+            VIEW CHANNEL LIST
+        </li>  
+         <li  class="w-caret">
+            <a href="https://www.youtube.com/channel/UC_g4uGL6LkWjC5D4iVw7AVQ/channels?view=49&shelf_id=3"
+            target="_blank">View this List @ YouTube</a>
+        </li>
+        <li  class="w-caret last-up">
+            CONTRIBUTE
+        </li>
+        <li  class="w-caret">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQxaee950iUQYHySaUTv_0uANHAxilkBgt7svelT875wcIVw/viewform?usp=sf_link"
+            target="_blank">Add one yourself [Google Form]</a>
+        </li>   
+    </ul>
+</div>
+<div id="w-yt-vid" class="listContent w-center">
+    <ul class="w-list">
+        <li  class="w-caret last-up">
+            &#9910; VIDEOS &#9910;
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtu.be/ZYGd-llxHJE"
+            target="_blank">How one NASA image tells dozens of stories</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtu.be/xP5-iIeKXE8"
+            target="_blank">Life in Life</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtu.be/cDUs6BEIZLU"
+            target="_blank">World's Smartest Environment Heroes</a>
+        </li> 
+        <li  class="w-caret">
+            ...
+        </li>
+        <li  class="w-caret last-up">
+            VIEW PLAYLIST
+        </li>  
+         <li  class="w-caret">
+            <a href="https://www.youtube.com/playlist?list=PL2bOExXBDoA9spEW_-sOz9zmyYG-CZub1"
+            target="_blank">View this Playlist @ YouTube</a>
+        </li>
+        <li  class="w-caret last-up">
+            CONTRIBUTE
+        </li>
+        <li  class="w-caret">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQxaee950iUQYHySaUTv_0uANHAxilkBgt7svelT875wcIVw/viewform?usp=sf_link"
+            target="_blank">Add one yourself [Google Form]</a>
+        </li> 
+        
+    </ul>
+</div>
+<div id="w-m-d" class="listContent w-center">
+    <ul class="w-list">
+        <li  class="w-caret last-up">
+            &#9910; MUSIC VIDEOS &#9910;
+        </li>
+        <li  class="w-caret ">
+            <a href="https://youtu.be/ENETOpNpIiI"
+            target="_blank">Johann Strauss II - An der schönen, blauen Donau - Walzer, Op. 314</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtu.be/MMGKtXElgvA"
+            target="_blank">Tchaikovsky - March Of The Toy Soldiers</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtu.be/wF_B_aagLfI"
+            target="_blank">Teri Mitti - Kesari</a>
+        </li>  
+        <li  class="w-caret">
+            <a href="https://youtu.be/QiBeywmJoRY"
+            target="_blank">Teri Mitti - Tribute</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtu.be/PYI09PMNazw"
+            target="_blank">The Ecstasy of Gold - Ennio Morricone</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtube.com/playlist?list=PLXGSkM44ouicZCGm2tHHyz89otXKe8sO0"
+            target="_blank">LEMMiNO Music - Nova (Playlist)</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtu.be/psuRGfAaju4"
+            target="_blank">Owl City - Fireflies</a>
+        </li> 
+        <li  class="w-caret">
+            <a href="https://youtu.be/Ss2-Ds9IV-g"
+            target="_blank">Marshmello & Demi Lovato - OK Not To Be OK (Lost Stories Remix)</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtu.be/EW4pNzAbVao"
+            target="_blank">KSHMR & Lost Stories - Bombay Dreams</a>
+        </li>
+        <li  class="w-caret">
+            ...
+        </li> 
+        <li  class="w-caret last-up">
+            &#9910; DANCE VIDEOS &#9910;
+        </li> 
+        <li  class="w-caret">
+            <a href="https://youtu.be/ua95fPR6HC8"
+            target="_blank">Черкесский (адыгский) танец ЛЪАПЭРИСЭ,Caucasian dance</a>
+        </li> 
+        <li  class="w-caret">
+            ...
+        </li> 
+        <li  class="w-caret last-up">
+            VIEW PLAYLIST
+        </li>  
+         <li  class="w-caret">
+            <a href="https://www.youtube.com/playlist?list=PL2bOExXBDoA86uqoorjd1OaW0gS3Wz-7k"
+            target="_blank">View this Playlist @ YouTube</a>
+        </li>
+        <li  class="w-caret last-up">
+            CONTRIBUTE
+        </li>
+        <li  class="w-caret">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQxaee950iUQYHySaUTv_0uANHAxilkBgt7svelT875wcIVw/viewform?usp=sf_link"
+            target="_blank">Add one yourself [Google Form]</a>
+        </li> 
+    </ul>
+</div>
+
+
+
+
+<div id='default-msg'class="listContent" style="display: flex;flex-direction:column;">
+<p class="w-center w-caret">
     Welcome to recommendika<br>
     select the appropriate tab from above<br>
-    website is still in beta.<br>
-    best viewed on large screen.<br><br><br>
-    defaults (otherwise stated):<br>
-    language: english
-    
+    website is still in MAKING.<br>
+    best viewed on large screen.</p><p class="w-center w-caret">
+    DEFAULTS TAGS (otherwise stated) :<br> &#9910; <br>
+    LANGUAGE: ENGLISH<BR>
+    VIDEO PLATFORM :
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
 </p>  
 
 

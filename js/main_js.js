@@ -27,6 +27,10 @@ function openDis(evt, disName){
     for (i = 0; i < discipline.length; i++){
         discipline[i].style.display = 'none';
     }
+    listContent = document.getElementsByClassName("listContent");
+  for (i = 0; i < listContent.length; i++) {
+    listContent[i].style.display = "none";
+  }
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" activeBtn", "");

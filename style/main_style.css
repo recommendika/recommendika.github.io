@@ -9,7 +9,15 @@
     border-left: none;
     border-right: none;
   }
-  
+  .w-center{
+    text-align: center;
+    height: auto;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+    border-left: none;
+    border-right: none;
+  }
   
   
   .main-sel button{
