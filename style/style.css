@@ -17,7 +17,7 @@ html {
 }
 
 body{
-  min-height:100vh;
+  min-height:-webkit-fill-available;
   display: flex;
   flex-direction: column;
 	color: #ffffff;
@@ -151,13 +151,13 @@ a:active {
   }
 }
 .sidenav1 a, .sidenav2 a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 32px 8px 32px;
   text-decoration: none;
   color: #a6a4a4;
   display: block;
   transition: 0.3s;
 }
-.sidenav1 a {
+.sidenavtop1 a {
   font-size: 30px;
 }
 .sidenav2 a {
@@ -175,13 +175,14 @@ a:active {
   font-size: 55px;
   margin-left: 50px;
 }
-.sidenav1 .sidenavbtm{
+.sidenavbtm{
   font-size: 15px;}
 
 .sidenav2 .sidenavbtm{
   font-size: 15px;
 		
 }
+
 
 .menubtn {
   position: absolute;
@@ -215,6 +216,7 @@ a:active {
 .last-up{
   background-color: white;
   color: black;
+  text-align: center;
   right: 0;
   border: 1px;
   border-radius: 50px;
@@ -320,7 +322,7 @@ ul, #section-head {
 .w-caret{
   list-style-type: none;
   font-size: 120%;
-  padding: 5px;
+  padding: 5px 0 5px 0;
 }
 
 .tooltip {
