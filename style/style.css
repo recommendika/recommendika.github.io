@@ -70,6 +70,9 @@ a:active {
    color: #000 !important;
   background: yellow;
 }
+.arch:hover{
+  color: red;
+}
 @media all and (min-width: 725px){
   .sidenav2{
   display: flex;
