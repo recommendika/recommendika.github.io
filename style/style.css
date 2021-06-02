@@ -13,35 +13,37 @@ url('fonts/montserrat-v15-latin-regular.woff2') format('woff2');
 }
 
 html {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 body{
   min-height:-webkit-fill-available;
   display: flex;
   flex-direction: column;
-	color: #ffffff;
-	background-color: #161625
+	color: #ffffff;;
+	background: linear-gradient(to right, #0f0c29, #0a0a1b, #0f0c29);
+  text-shadow: 0.5px 0.5px rgb(255, 102, 0);
 }
 
 h1{
-	font-size: 270%;
-  text-decoration: underline;
-  text-underline-offset:20%;
+  margin-bottom: 0px;
 }
+
 
 a:link {
   color: white;
   text-decoration: underline dashed 0.5px;
   text-underline-offset: 20%;
+  text-shadow: 1px 0.5px rgb(27, 126, 68);
 }
 
 a:visited {
-  color: #a6a4a4;
+  color: #00ff4c;
 }
 
 a:hover {
   color: red;
+  text-shadow: 0.5px 0.5px red;
 }
 
 a:active {
@@ -58,7 +60,7 @@ a:active {
   top: 0; 
   right: 0;
   text-align: center;
-  background-color: #161625; 
+  background-color: #080616; 
   overflow-x: hidden; 
   transition: 0.5s; 
 }
@@ -70,9 +72,7 @@ a:active {
    color: #000 !important;
   background: yellow;
 }
-.arch:hover{
-  color: red;
-}
+
 @media all and (min-width: 725px){
   .sidenav2{
   display: flex;
@@ -83,7 +83,7 @@ a:active {
   z-index: 1; 
   top: 0; 
   left: 0;
-  background-color: #0f0f1c; 
+  background-color: #080616; 
   overflow-x: hidden; 
   transition: 0.5s;
   }
@@ -121,7 +121,7 @@ a:active {
   z-index: 1; 
   top: 0; 
   left: 0;
-  background-color: #0f0f1c; 
+  background-color: #080616; 
   overflow-x: hidden;
   transition: 0.5s; 
   }
@@ -135,14 +135,10 @@ a:active {
   }
   .menubtn2 {
   position: absolute;
-  top: 20px;
   left: 0;
   font-size: 36px;
 }
-  .menubtn2:hover{
-    color: yellow;
-    transition:0.5s;
-  }
+
 .closebtn2{
     font-size: 52px;
     padding: 10px;
@@ -156,6 +152,7 @@ a:active {
 .sidenav1 a, .sidenav2 a {
   padding: 8px 32px 8px 32px;
   text-decoration: none;
+  text-shadow: none;
   color: #a6a4a4;
   display: block;
   transition: 0.3s;
@@ -189,10 +186,10 @@ a:active {
 
 .menubtn {
   position: absolute;
-  top: 20px;
-  right: 25px;
+  
   font-size: 36px;
-  margin-left: 50px;
+  cursor: grab;
+  text-shadow: none;
 }
 
 #sec-foot{
@@ -209,31 +206,62 @@ a:active {
   border-radius: 20px;
   font-size: 10px;
 }
-  .last-upp{
-    background-color: white;
-    color: black;
-    border: 1px;
-    border-radius: 50px;
 
-}
 .last-up{
   background-color: white;
   color: black;
   text-align: center;
-  right: 0;
+  padding: 2px 10px;
   border: 1px;
-  border-radius: 50px;
+  border-radius:20px;
+  text-shadow: none;
+}
+.main-head{
+  padding: 5px 10px;
+  text-align: center;
+  background-color: white;
+  color: #000;
+  transition: 1s;
+  box-shadow: 5px 5px yellow;
+}
+.main-head h1{
+  font-size: 7vw;
+  text-decoration: none;
+}
+.main-head:hover{
+  background-color: inherit;
+  color: #fff;
+  box-shadow: -5px -5px white;
+  
+}
+hr.main-head-line{
+  margin-top: 0px;
+  border: 4px solid;
+  width: 50vw;
+  box-shadow: 2px 2px yellow;
 }
 
-.mhead h1{
-	    font-size: 5rem;
-		text-align: center;
-    margin-block-start: 2rem;
-    	}
-.mhead h1:hover{
-  color: yellow;
-  transition:0.5s;
+
+.mhead{
+  text-align: center;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+  background-color: white;
+  color: #000;
+  transition: 1s;
+  box-shadow: 10px 10px yellow;
+  
 }
+.mhead h1{
+	font-size: 5rem;
+  text-shadow: 2px 2px yellow;
+}
+.mhead:hover{
+  background-color: inherit;
+  color: #fff;
+  box-shadow: -10px -10px white;
+}
+
 #toprk {
   border-collapse: collapse;
   width: 100%;
@@ -246,9 +274,9 @@ a:active {
 
 
 #toprk tr:hover {
-  background-color:yellow;
-  color: black;
+  background-color:#117a34;
   transition: 0.5s;
+  box-shadow: 5px 5px white;
 }
 
 #toprk th {
@@ -263,14 +291,17 @@ a:active {
   color: black;
   font-family: courier;
   font-weight: bold;
+  padding: 2px 2px;
   vertical-align: super;
   font-size: 50%; 
   border-radius: 5px;
+  box-shadow: 2px 2px green;
+  text-shadow: none;
 }
 
 
 ul, #section-head {
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 #secton-head {
@@ -278,90 +309,55 @@ ul, #section-head {
   padding: 0;
 }
 
-.caret {
-  cursor: pointer;
-  -webkit-user-select: none; /* Safari 3.1+ */
-  -moz-user-select: none; /* Firefox 2+ */
-  -ms-user-select: none; /* IE 10+ */
-  user-select: none;
-  font-size: 170%;
-  text-decoration: underline 1px dashed;
-  text-underline-offset: 10%;
-
-}
-.caret:hover{
-	background-color: white;
-	transition:0.5s;
-	color: black;
-
-}
-.caret::before {
-  content: "\25B7";
-  color: yellow;
-  display: inline-block;
-  margin-right: 6px;
-  transition: 0.5s;
-
+.anim-blink-w-r{
+  color: white;
+  text-shadow: none;
+  animation-name: blink-w-r;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
-.caret-down::before {
-  -ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(90deg); /* Safari */
-  transform: rotate(90deg);
-}
-
-.nested {
-  display: none;
-  font-size: 120%;
-  padding: auto;
-}
-
-.active {
-  display: block;
-}
-.w-list{
-  padding-inline-start: 0px;
-}
-.w-caret{
-  list-style-type: none;
-  font-size: 120%;
-  padding: 5px 0 5px 0;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  vertical-align: super; 
-  background-color: black;
-  font-size: 70%;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 200px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 110%;
+@keyframes blink-w-r{
+  0%{color: white;}
+  50% {color: red;}
   
 }
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent black transparent transparent;
-}
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+@keyframes blink-b-w{
+  0%{color: white;}
+  50% {color: black;}
+  
 }
 
+.anim-blink-y-g{
+  color: yellow;
+  text-shadow: none;
+  animation-name: blink-y-g;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes blink-y-g{
+  0% {color: yellow;}
+  50% {color: green;}
+}
+
+.anim-blink-b-y-g-r{
+  color: #000;
+  text-shadow: none;
+  animation-name: anim-blink-b-y-g-r;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes anim-blink-b-y-g-r {
+  0%{color: black;}
+  25%{color: red;}
+  50%{color: yellowgreen;}
+  75%{color: blue;}
+
+
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}

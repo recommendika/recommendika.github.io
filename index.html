@@ -48,27 +48,24 @@
     </div>
     
 <div id="main">
-    <div class="main-head">
-    <span class="menubtn" onclick="openNav()" style="cursor: grab;color: yellow;">&#9776</span>
-	<h1 style="display:inline;"><span>Ricom<sup>2</sup>endi</span></h1><h1 class='hindi' style="display: inline; color: yellow;">का</h1>
+    <div id="mainheader" class="main-head">
+    <span class="menubtn" onclick="openNav()" style="right: 25px;">&#9776</span>
+    <span class="menubtn" onclick="nightm()" style="left: 25px;">&#x2604;</span> 
+	<h1 style="display:inline;text-shadow: 2px 2px yellow;"><span>Ric<span class="anim-blink-b-y-g-r" style="font-size: 6vw;">&#9673;</span>m<sup>2</sup>endi</span></h1><h1 class='hindi' style="display: inline; color: yellow;text-shadow: 2px 3px #000;">का</h1>
+    <hr class="main-head-line"> 
+    </div><div>
     
-    <p class="w-center arch" style="background-color:black;">
-        <span style="color: red; display: inline;font-weight: bolder;font-size: x-large;"> &#9888;</span>
-        this website is <span style="color: yellow; display: inline;font-size: x-large;"> ARCHIEVED </span>
-        <br>
-        and is not updating anymore as of 30 may 2021
-    
-    </p>
-    <p class="center" style="background-color: white;color: #000;">
-        tab containing  [ &#10684; ] are not enough populated.
+    <p class="center last-up">
+        tab containing  [ <span style="color: red;"> &#9673;</span>] are not enough populated. you can &nbsp;
+        <a href="cont.html">contribute</a>&nbsp; to expand it.
         </p>
     </div>
 
 <div class="main-list center">
     <div class="main-sel">
         <button class="tablinks" onclick="openCat(event, 'learn')">learn</button>
-        <button class="tablinks" onclick="openCat(event, 'create')">create &#10684;</button>
-        <button class="tablinks" onclick="openCat(event, 'tools')">tools &#10684;</button>
+        <button class="tablinks" onclick="openCat(event, 'create')">create <span style="color: red;"> &#9673;</span></button>
+        <button class="tablinks" onclick="openCat(event, 'tools')">tools<span style="color: red;"> &#9673;</span></button>
         <button class="tablinks" onclick="openCat(event, 'wander')">#wander</button>
     </div>
 </div>
@@ -78,10 +75,10 @@
     <!--start | learn-->
     <div id="learn" class="category">
         <button class="tablinks" onclick="openDis(event, 'science')">science & maths</button>
-        <button class="tablinks" onclick="openDis(event, 'cs')">computer science &#10684;</button>
-        <button class="tablinks" onclick="openDis(event, 'humanities')">humanities &#10684;</button>
-        <button class="tablinks" onclick="openDis(event, 'arts')">art &#10684;</button>
-        <button class="tablinks" onclick="openDis(event, 'language')">language &#10684;</button>
+        <button class="tablinks" onclick="openDis(event, 'cs')">computer science <span style="color: red;"> &#9673;</span></button>
+        <button class="tablinks" onclick="openDis(event, 'humanities')">humanities <span style="color: red;"> &#9673;</span></button>
+        <button class="tablinks" onclick="openDis(event, 'arts')">art <span style="color: red;"> &#9673;</span></button>
+        <button class="tablinks" onclick="openDis(event, 'language')">language <span style="color: red;"> &#9673;</span></button>
     </div>
     <!--ends | learn-->
 
@@ -119,9 +116,9 @@
     <!--start | learn > science-->
     <div id="science" class="discipline">
         <button class="tablinks" onclick="openMainList(event, 'physics')">physics</button>
-        <button class="tablinks" onclick="openMainList(event, 'maths')">maths &#10684;</button>
-        <button class="tablinks" onclick="openMainList(event, 'chemistry')">chemistry &#10684;</button>
-        <button class="tablinks" onclick="openMainList(event, 'biology')">biology &#10684;</button>
+        <button class="tablinks" onclick="openMainList(event, 'maths')">maths <span style="color: red;"> &#9673;</span></button>
+        <button class="tablinks" onclick="openMainList(event, 'chemistry')">chemistry <span style="color: red;"> &#9673;</span></button>
+        <button class="tablinks" onclick="openMainList(event, 'biology')">biology <span style="color: red;"> &#9673;</span></button>
         
     </div>
     <!--ends | learn > science-->
@@ -159,6 +156,7 @@
     <!--start | learn > language-->
     <div id="language" class="discipline">
         <button class="tablinks" onclick="openMainList(event, 'sanskrit')">संस्कृत</button>
+        <button class="tablinks" onclick="openMainList(event, 'sign-lang')">sign language</button>
     </div>
     <!--ends | learn > language-->
 
@@ -211,7 +209,7 @@
             </li>
         </ul>
         <ul id="section-head">
-            <li><span class="caret">COURSES<span class="tags">01</span></span>
+            <li><span class="caret">COURSES<span class="tags">02</span></span>
             <ul class="nested">
                 <li>
                     <a href="https://ocw.mit.edu/courses/physics/"
@@ -223,7 +221,23 @@
                         "no testimonial available" <br>
                         </span>
                     </span>
-                </li>  
+                </li> 
+                <li>
+                    <a href="https://oyc.yale.edu/physics"
+                    target="_blank">Physics | Open Yale Courses</a>
+                    <span class="tags">ug ; web</span>
+                    <span class="tooltip"> &#9910;
+                        <span class="tooltiptext">   
+                        rkmnd'ed by :- r001<br>
+                        "Contains a total of 49 lectures dividen into two courses<br>
+                        Fundamental Of physics I (24) and FOPhy II (25)<br>
+                        Other features include : <br>
+                        closed captioned<br>
+                        problem set & solutions (pdf) for every lecture.<br>
+                        Audio transcript (html), Audio file (mp3)"<br>
+                        </span>
+                    </span>
+                </li> 
             </ul>
             </li>
         </ul>
@@ -572,14 +586,40 @@
 <p class="w-center w-caret">
     Welcome to recommendika<br>
     select the appropriate tab from above<br>
-    website is still in MAKING.<br>
-    best viewed on large screen.</p>
-    <p class="w-center w-caret">
-    DEFAULTS TAGS (otherwise stated) :<br> &#9910; <br>
-    LANGUAGE: ENGLISH<BR>
-    VIDEO PLATFORM :
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
-</p>  
+    website is still in the MAKING and it's structure & information may change daily<br></p>
+
+    <p class="w-center anim-blink-w-r" style="margin-bottom: 0px;">
+        <span style="font-weight: bolder;font-size: xx-large;"> &#9888;</span><br>LEGENDS & INFO
+    </p>
+    <p class="w-center w-caret" style="margin-bottom: 0px;">
+        hover over [  <span class="tooltip" style="vertical-align: middle;"> &#9910;
+            <span class="tooltiptext">
+                to see additional information and testimonials
+            </span>
+        </span> ]<br>
+        click on [&#x2604;] to enable dark-mode<br>
+        best viewed on large screen<br>
+        -
+        <br>defaults (otherwise stated)
+        <br>language : english<br>
+        video-platform :<span style="vertical-align:sub;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span><br>-<br>
+            <a href="icons" style="color: white;">NORMAL-LINK</a>&nbsp;
+        <a href="#" style="color: #00ff4c;">VISITED-LINK</a>&nbsp;
+        <a href="#" style="color: yellow;">ACTIVE-LINK</a>&nbsp;
+        NORMAL-TEXT<br>-<br>
+        website contains blinking colour
+
+    </p>
+  <p class="w-center w-caret" style="margin-top: 0px;margin-bottom: 0px;">
+    <span class="anim-blink-y-g"> &#9673;</span>
+    <span class="anim-blink-w-r"> &#9673;</span>
+    <span class="anim-blink-b-y-g-r">&#9673;</span>
+    <span class="anim-blink-w-r"> &#9673;</span>
+    <span class="anim-blink-y-g"> &#9673;</span>
+
+
+</p>
 
 
 
@@ -589,9 +629,9 @@
 
 </div>
 <footer id="main-foot" class="main-footer">
-    <span class="last-upp">#recommendika</span>
+    <span class="last-up">#recommendika</span>
     
-    <span class="last-up">last updated : 29 May 2021</span>
+    <span class="last-up">last updated : 02 June 2021</span>
 </footer>
 <script>
     var toggler = document.getElementsByClassName("caret");
