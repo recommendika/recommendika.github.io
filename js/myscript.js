@@ -15,3 +15,8 @@ function openNav2() {
 function closeNav2() {
   document.getElementById("mySidenav2").style.width = "0";
 }
+
+function nightm() {
+  document.getElementById("mainheader").style.backgroundColor = "inherit";
+  document.getElementById("mainheader").style.color = "white";
+}
