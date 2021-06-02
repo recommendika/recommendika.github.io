@@ -343,6 +343,7 @@ ul, #section-head {
 
 .anim-blink-b-y-g-r{
   color: #000;
+  font-size: 4rem;
   text-shadow: none;
   animation-name: anim-blink-b-y-g-r;
   animation-duration: 3s;
