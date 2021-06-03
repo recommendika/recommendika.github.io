@@ -8,6 +8,7 @@
     border-radius: 20px;
     border-left: none;
     border-right: none;
+    animation: fade-in 2.5s;
   }
   .w-center{
     text-align: center;
@@ -123,10 +124,13 @@ li{
       font-size: 15px;
   }
   .category{
-      display: none;
+    display: none; 
+    animation: fade-in 1s;
+      
   }
   .discipline{
       display: none;
+      animation: fade-in 1s;
   }
   .listContent{
       display: none;
@@ -217,4 +221,7 @@ li{
       color: yellow;
   }
   
-  
+  @keyframes fade-in {
+    from { opacity: 0; }
+      to { opacity: 1; }
+  }
