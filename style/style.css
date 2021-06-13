@@ -1,3 +1,13 @@
+:root{
+  --bg-color: #121520;
+  --caret-color: #283a83;
+  --caret-text-color: #fff;
+  --main-color: #fff;
+  --text-sub-color: #818181;
+  --text-color: #9db0ff;
+  --shadow-c:rgb(208, 255, 1);
+}
+
 *{
  font-family: 'Montserrat'; 
 }
@@ -14,16 +24,32 @@ url('fonts/montserrat-v15-latin-regular.woff2') format('woff2');
 
 html {
   min-height: 100%;
+  scroll-behavior: smooth;
 }
 
 body{
   min-height:-webkit-fill-available;
-  display: flex;
-  flex-direction: column;
-	color: #ffffff;;
-	background: linear-gradient(to right, #0f0c29, #0a0a1b, #0f0c29);
-  text-shadow: 1px 0.5px 1px rgb(255, 102, 0);
+  display: flex;  flex-direction: column;
+	color:var(--text-color);
   animation: fade-in 1.5s;
+}
+body.mainPAGE{
+  background:linear-gradient(to top right,var(--bg-color),black,var(--bg-color));
+}
+body.secPAGE{
+  background: linear-gradient(to top right,black,black,var(--bg-color),black,black);
+}
+::-webkit-scrollbar{
+  width: 5px;
+  background: black;
+}
+::-webkit-scrollbar-thumb{
+  background:var(--caret-color);
+  border: 2px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background:var(--caret-text-color); 
+  
 }
 
 h1{
@@ -32,19 +58,18 @@ h1{
 
 
 a:link {
-  color: white;
+  color: var(--main-color);
   text-decoration: underline dashed 0.5px;
   text-underline-offset: 20%;
-  text-shadow: 1px 0.5px rgb(27, 126, 68);
+  text-shadow: 1px 0.5px var(--caret-color);
 }
 
 a:visited {
-  color: #00ff4c;
+  color:#6bada5;
 }
 
 a:hover {
-  color: red;
-  text-shadow: 0.5px 0.5px red;
+  text-shadow: 1px 0.5px rgb(255, 0, 0)
 }
 
 a:active {
@@ -61,7 +86,7 @@ a:active {
   top: 0; 
   right: 0;
   text-align: center;
-  background-color: #080616; 
+  background:linear-gradient(to top right,var(--bg-color),black); 
   overflow-x: hidden; 
   transition: 0.5s; 
 }
@@ -70,8 +95,8 @@ a:active {
 }
 
 .active-tab{
-   color: #000 !important;
-  background: yellow;
+   color: var(--caret-text-color) !important;
+  background: var(--caret-color);
 }
 
 @media all and (min-width: 725px){
@@ -84,12 +109,12 @@ a:active {
   z-index: 1; 
   top: 0; 
   left: 0;
-  background-color: #080616; 
+  background:linear-gradient(to right,black,#121520); 
   overflow-x: hidden; 
   transition: 0.5s;
   }
-  #menudiv{
-    display: block;
+  .menudiv{
+    display: none;
     position: relative;
     float: left;
     margin-left: 170px;
@@ -122,7 +147,7 @@ a:active {
   z-index: 1; 
   top: 0; 
   left: 0;
-  background-color: #080616; 
+  background:linear-gradient(to right,black,#121520);
   overflow-x: hidden;
   transition: 0.5s; 
   }
@@ -154,7 +179,7 @@ a:active {
   padding: 8px 32px 8px 32px;
   text-decoration: none;
   text-shadow: none;
-  color: #a6a4a4;
+  color: var(--text-sub-color);
   display: block;
   transition: 0.3s;
 }
@@ -165,8 +190,8 @@ a:active {
 	font-size: 20px;
 }
 .sidenav1 a:hover ,.sidenav2 a:hover{
-  color: #000;
-  background: lightyellow;
+  color: #000 !important;
+  background:var(--text-color);
 }
 
 .sidenav1 .closebtn {
@@ -209,8 +234,8 @@ a:active {
 }
 
 .last-up{
-  background-color: white;
-  color: black;
+  background-color: var(--caret-color);
+  color: var(--caret-text-color);
   text-align: center;
   padding: 2px 10px;
   border: 1px;
@@ -220,8 +245,8 @@ a:active {
 .main-head{
   padding: 5px 10px;
   text-align: center;
-  background-color: white;
-  color: #000;
+  background-color:white;
+  color: black;
   transition: 1s;
   box-shadow: 5px 5px yellow;
 }
@@ -238,7 +263,7 @@ a:active {
 hr.main-head-line{
   margin-top: 0px;
   border: 4px solid;
-  width: 50vw;
+  width: 52vw;
   box-shadow: 2px 2px yellow;
 }
 
@@ -247,25 +272,27 @@ hr.main-head-line{
   text-align: center;
   margin-block-start: 2rem;
   margin-block-end: 2rem;
-  background-color: white;
+  background:linear-gradient(to right,var(--text-color),var(--main-color));
   color: #000;
   transition: 1s;
-  box-shadow: 10px 10px yellow;
-  
+  box-shadow: 10px 10px var(--caret-color);
+
 }
 .mhead h1{
 	font-size: 5rem;
-  text-shadow: 2px 2px yellow;
 }
 .mhead:hover{
-  background-color: inherit;
+  background: black;
   color: #fff;
   box-shadow: -10px -10px white;
 }
+.mtext h2{
+  color: var(--caret-color);
 
+}
 #toprk {
   border-collapse: collapse;
-  width: 100%;
+  width: -webkit-fill-available;
 }
 
 #toprk td, #toprk th {
@@ -275,21 +302,20 @@ hr.main-head-line{
 
 
 #toprk tr:hover {
-  background-color:#117a34;
+  background-color:#002f3d54;
   transition: 0.5s;
-  box-shadow: 5px 5px white;
 }
 
 #toprk th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #45456b;
-  color: white;
+  background-color: var(--caret-color);
+  color: var(--caret-text-color);
 }
 .tags {
-  background-color: white;
-  color: black;
+  background-color: var(--main-color);
+  color:black;
   font-family: courier;
   font-weight: bold;
   padding: 2px 2px;
@@ -323,6 +349,11 @@ ul, #section-head {
   50% {color: red;}
   
 }
+@keyframes blink-w-r-bkg{
+  0%{background: white;}
+  50% {background: red;}
+  
+}
 
 @keyframes blink-b-w{
   0%{color: white;}
@@ -338,8 +369,8 @@ ul, #section-head {
   animation-iteration-count: infinite;
 }
 @keyframes blink-y-g{
-  0% {color: yellow;}
-  50% {color: green;}
+  30% {color: green;}
+  50% {color: yellow;}
 }
 
 .anim-blink-b-y-g-r{
@@ -351,10 +382,9 @@ ul, #section-head {
   animation-iteration-count: infinite;
 }
 @keyframes anim-blink-b-y-g-r {
-  0%{color: black;}
-  25%{color: red;}
-  50%{color: yellowgreen;}
-  75%{color: blue;}
+  25%{color: rgb(255, 102, 0);}
+  50%{color: rgb(114, 6, 255);}
+  75%{color: rgb(9, 255, 0);}
 
 
 }
