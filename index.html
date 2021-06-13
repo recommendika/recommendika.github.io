@@ -11,26 +11,21 @@
 <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"/>
 
 
-<link rel="stylesheet" href="style\main_style.css">
+<link rel="stylesheet" href="style\styleFORmain.css">
 <link rel="stylesheet" href="style\style.css">
-<script src="js\myscript.js"></script>
-<script src="js\main_js.js"></script>
+<script src="js\jsFORmainpage.js"></script>
 
 </head>
-<body>
+<body class="mainPAGE">
     <div id="mySidenav1" class="sidenav1">
         <div class='sidenavtop1'>
                 <a class="closebtn" onclick="closeNav()" style="cursor: grab;">&times;</a>
-                <a href="about.html">about</a>
-                <a href="cont.html">contribute</a>
-                <a href="faq.html">faq</a>
-                <a href="toprk.html">top rkmnd'ers</a>
-                <a href="feedb.html">feedback</a>
+                <a href="menus.html">about and other</a>
                 <a href="#" style="text-decoration:line-through;">data sheet (pdf)</a>
            </div>
         <footer id="sec-foot" class="social-link sidenavbtm">
             <a href="https://www.youtube.com/channel/UC1OjqRZK0Zp1SRiNixOqmPg" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px; background-color:#FFF;"><path fill="#F00" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
     
             </a>
     
@@ -50,14 +45,13 @@
 <div id="main">
     <div id="mainheader" class="main-head">
     <span class="menubtn" onclick="openNav()" style="right: 25px;">&#9776</span>
-    <span class="menubtn" onclick="nightm()" style="left: 25px;">&#x2604;</span> 
-	<h1 style="display:inline;text-shadow: 2px 2px yellow;"><span>Ric<span class="anim-blink-b-y-g-r" style="font-size: 6vw;">&#9673;</span>m<sup>2</sup>endi</span></h1><h1 class='hindi' style="display: inline; color: yellow;text-shadow: 2px 3px #000;">का</h1>
+    <span class="menubtn" onclick="nightie()" style="left: 25px;">&#x2604;</span> 
+	<h1 style="display:inline;text-shadow: 3px 3px var(--shadow-c)"><span>Rec<span class="anim-blink-b-y-g-r" style="font-size: 6vw;">&#9673;</span>m<sup>2</sup>endi</span></h1><h1 class='hindi' style="display: inline; color: var(--shadow-c);text-shadow: 3px 3px #000;">का</h1>
     <hr class="main-head-line"> 
     </div><div>
     
-    <p class="w-center w-caret" style="color: yellow;">
-        tab containing  [ <span style="color: red;"> &#9673;</span>] are not enough populated. you can &nbsp;
-        <a href="cont.html">contribute</a>&nbsp; to expand it.
+    <p class="w-center w-caret" style="color: var(--shadow-c)">
+        tab containing  [-<span style="color: red;">&#9673;</span>-] are not enough populated. you can <a href="cont.html">contribute</a>&nbsp; to expand it.
         </p>
     </div>
 
@@ -229,7 +223,7 @@
                     <span class="tooltip"> &#9910;
                         <span class="tooltiptext">   
                         rkmnd'ed by :- r001<br>
-                        "Contains a total of 49 lectures dividen into two courses<br>
+                        "Contains a total of 49 lectures divided into two courses<br>
                         Fundamental Of physics I (24) and FOPhy II (25)<br>
                         Other features include : <br>
                         closed captioned<br>
@@ -244,10 +238,17 @@
         <ul id="section-head">
                 <li><span class="caret">AUDIO</span>
                 <ul class="nested">
-                    <li>No resourse</li>  
+                    <li>No resource</li>  
                 </ul>
                 </li>
         </ul>
+        <ul id="section-head">
+            <li><span class="caret">PROBLEM PRACTICE</span>
+            <ul class="nested">
+                <li>No resource</li>  
+            </ul>
+            </li>
+    </ul>
         <ul id="section-head">
                 <li><span class="caret">WEBSITE<span class="tags">01</span></span>
                 <ul class="nested">
@@ -320,7 +321,7 @@
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
                             rkmnd'ed by :- r001<br>
-                            "... and dont forget to check out the graphs, they are amazing ... " <br>
+                            "... and don't forget to check out the graphs, they are amazing ... " <br>
                             </span>
                         </span>
                     </li> 
@@ -388,222 +389,222 @@
 <!--start | learn > cs > python-->
 <div id="python" class="listContent center">
     <ul id="section-head">
-        <li><span class="caret">VIDEOS<span class="tags">03</span></span>
-            <ul class="nested">
-                <li>
-                    <a href="https://youtube.com/playlist?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW"target="_blank">Mike Dane</a>
-                        <span class="tags">beginner
-                        </span><span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                                        rkmnd'ed by :- r001<br>  
-                *A good entry level playlist for python.
-                <br>Videos are bit sized, so they are 
-                <br>easy to carry. Or you can watch a 
-                <br>complete 38 min video.
-                        </span>
-                    </span>
-                </li>
-                <li>
-                    <a href="https://youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB"target="_blank">
-                    freecodecamp.org</a>
-                        <span class="tags">all level
-                        </span><span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                                        rkmnd'ed by :- r001<br>  
-                A playlist of of all the freecodecamp python courses.
-                <br>Contains videos for beginners to advance
-                <br>covering a range of topics from simple
-                <br>programming to web development and  
-                <br>Data Science with python.
-                <br>First video is a 4 h 38 min course by Mike Dane himself.
-                <br>
-                <br>Videos length range from 15 min to one being 13 hours
-                <br>and 40 minutes long.
-                <br>
-                <br>If you need to learn anything in programming, chances are
-                <br>freecodecamp will have a video about it. Go to the video
-                <br>or Playlist section of their channel and explore <br>yourself.
-                        </span>
-                    </span>
-                </li> 
-                <li>
-                    <a href="https://www.youtube.com/c/buildwithpython/playlists?view=50&sort=dd&shelf_id=3"target="_blank">
-                    buildwithpython</a>
-                        <span class="tags">intermediate
-                        </span><span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                                        rkmnd'ed by :- r001<br>  
-                Contains videos for different project
-                <br>that can be build using python, so
-                <br> you get the chance to make real life
-                <br>things by applying your skills.
-                        </span>
-                    </span>
-                </li>
-            </ul>
-        </li>
-    
-    </ul>
-    <ul id="section-head">
-        <li><span class="caret">TEXT BOOK<span class="tags">01</span></span>
-            <ul class="nested">
-                <li>
-                    <a href="https://greenteapress.com/wp/"
-                    target="_blank">Green Tea Press - Free books by Allen B. Downey</a>
-                    <span class="tags">all levels</span>
-                    <span class="tooltip"> &#9910;
+    <li><span class="caret">VIDEOS<span class="tags">03</span></span>
+        <ul class="nested">
+            <li>
+                <a href="https://youtube.com/playlist?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW"target="_blank">Mike Dane</a>
+                    <span class="tags">beginner
+                    </span><span class="tooltip"> &#9910;
                         <span class="tooltiptext">   
-                            Contains many books in the<br>
-                             domain of python ranging from <br>
-                            begineer to advance and the author,<br>
-                            Allen B. Downey have made them avilable for free.
-                        </span>
+                                    rkmnd'ed by :- r001<br>  
+            *A good entry level playlist for python.
+            <br>Videos are bit sized, so they are 
+            <br>easy to carry. Or you can watch a 
+            <br>complete 38 min video.
                     </span>
-    
-                    <ul class="sub-nested">
-                        <li>BEGINNERS</li> 
-                        <li>
-                            <a href="https://greenteapress.com/wp/think-python-2e/"
-                            target="_blank">Think Python 2e</a>
-                                <span class="tags">bg ; web, pdf</span>
-                                <span class="tooltip"> &#9910;
-                                    <span class="tooltiptext">   
-                                                rkmnd'ed by :- r001<br>  
-                        *Think Python is an introduction to Python programming <br>
-                        for beginners<br>
-                        <br>
-                        .PDF book - 244 pages<br>
-                        Read online in simple html<br>
-                        Contains github repository
-                                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="https://youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB"target="_blank">
+                freecodecamp.org</a>
+                    <span class="tags">all level
+                    </span><span class="tooltip"> &#9910;
+                        <span class="tooltiptext">   
+                                    rkmnd'ed by :- r001<br>  
+            A playlist of of all the freecodecamp python courses.
+            <br>Contains videos for beginners to advance
+            <br>covering a range of topics from simple
+            <br>programming to web development and  
+            <br>Data Science with python.
+            <br>First video is a 4 h 38 min course by Mike Dane himself.
+            <br>
+            <br>Videos length range from 15 min to one being 13 hours
+            <br>and 40 minutes long.
+            <br>
+            <br>If you need to learn anything in programming, chances are
+            <br>freecodecamp will have a video about it. Go to the video
+            <br>or Playlist section of their channel and explore <br>yourself.
+                    </span>
+                </span>
+            </li> 
+            <li>
+                <a href="https://www.youtube.com/c/buildwithpython/playlists?view=50&sort=dd&shelf_id=3"target="_blank">
+                buildwithpython</a>
+                    <span class="tags">intermediate
+                    </span><span class="tooltip"> &#9910;
+                        <span class="tooltiptext">   
+                                    rkmnd'ed by :- r001<br>  
+            Contains videos for different project
+            <br>that can be build using python, so
+            <br> you get the chance to make real life
+            <br>things by applying your skills.
+                    </span>
+                </span>
+            </li>
+        </ul>
+    </li>
+
+</ul>
+<ul id="section-head">
+    <li><span class="caret">TEXT BOOK<span class="tags">01</span></span>
+        <ul class="nested">
+            <li>
+                <a href="https://greenteapress.com/wp/"
+                target="_blank">Green Tea Press - Free books by Allen B. Downey</a>
+                <span class="tags">all levels</span>
+                <span class="tooltip"> &#9910;
+                    <span class="tooltiptext">   
+                        Contains many books in the<br>
+                         domain of python ranging from <br>
+                        beginner to advance and the author,<br>
+                        Allen B. Downey have made them available for free.
+                    </span>
+                </span>
+
+                <ul class="sub-nested">
+                    <li>BEGINNERS</li> 
+                    <li>
+                        <a href="https://greenteapress.com/wp/think-python-2e/"
+                        target="_blank">Think Python 2e</a>
+                            <span class="tags">bg ; web, pdf</span>
+                            <span class="tooltip"> &#9910;
+                                <span class="tooltiptext">   
+                                            rkmnd'ed by :- r001<br>  
+                    *Think Python is an introduction to Python programming <br>
+                    for beginners<br>
+                    <br>
+                    .PDF book - 244 pages<br>
+                    Read online in simple html<br>
+                    Contains github repository
                                 </span>
-                        </li> 
-                        <li>DATA SCIENCE IN PYTHON</li>   
-                        <li>
-                            <a href="https://allendowney.github.io/ElementsOfDataScience/README.html"target="_blank">
-                        Elements of Data Science
-                            </a>
-                                <span class="tags">intermediate ; web. ipynb, pdf-print
-                                </span><span class="tooltip"> &#9910;
-                                    <span class="tooltiptext">   
-                                                rkmnd'ed by :- r001<br>  
-                        *Elements of Data Science is an introduction to data science<br>
-                         for people with no programming experience. 
-                        <br>
-                        <br>.ipynb file available or print pdf
-                        <br>Read online through Github page or Colab Notebook
-                                </span>
+                            </span>
+                    </li> 
+                    <li>DATA SCIENCE IN PYTHON</li>   
+                    <li>
+                        <a href="https://allendowney.github.io/ElementsOfDataScience/README.html"target="_blank">
+                    Elements of Data Science
+                        </a>
+                            <span class="tags">intermediate ; web. ipynb, pdf-print
+                            </span><span class="tooltip"> &#9910;
+                                <span class="tooltiptext">   
+                                            rkmnd'ed by :- r001<br>  
+                    *Elements of Data Science is an introduction to data science<br>
+                     for people with no programming experience. 
+                    <br>
+                    <br>.ipynb file available or print pdf
+                    <br>Read online through Github page or Colab Notebook
+                            </span>
+                    </span>
+                    </li>  
+                    <li>
+                        <a href="http://allendowney.github.io/ThinkBayes2/index.html"target="_blank">
+                    Think Bayes 2e
+                        </a>
+                            <span class="tags">intermediate ;web. ipynb, pdf-print
+                            </span><span class="tooltip"> &#9910;
+                                <span class="tooltiptext">   
+                                            rkmnd'ed by :- r001<br>  
+                    *Think Bayes is an introduction to Bayesian statistics<br>
+                     using simple Python programs instead of complicated math.
+                    <br>
+                    <br>.ipynb file available or print pdf
+                    <br>Read online through Github page or Colab Notebook
+                            </span>
                         </span>
-                        </li>  
-                        <li>
-                            <a href="http://allendowney.github.io/ThinkBayes2/index.html"target="_blank">
-                        Think Bayes 2e
-                            </a>
-                                <span class="tags">intermediate ;web. ipynb, pdf-print
-                                </span><span class="tooltip"> &#9910;
-                                    <span class="tooltiptext">   
-                                                rkmnd'ed by :- r001<br>  
-                        *Think Bayes is an introduction to Bayesian statistics<br>
-                         using simple Python programs instead of complicated math.
-                        <br>
-                        <br>.ipynb file available or print pdf
-                        <br>Read online through Github page or Colab Notebook
-                                </span>
+                    </li> 
+                    <li>
+                        <a href="https://greenteapress.com/wp/think-stats-2e/"target="_blank">
+                            Think Stats 2e
+                        </a>
+                            <span class="tags">intermediate ;web. pdf                         
+                            </span><span class="tooltip"> &#9910;
+                                <span class="tooltiptext">   
+                                            rkmnd'ed by :- r001<br>  
+                    *Think Stats is an introduction to Probability and <br>
+                    Statistics for Python programmers.
+                    <br>
+                    <br>PDF book - 264 pages 
+                    <br>Read online in simple html
+                    <br>Github repository available
                             </span>
-                        </li> 
-                        <li>
-                            <a href="https://greenteapress.com/wp/think-stats-2e/"target="_blank">
-                                Think Stats 2e
-                            </a>
-                                <span class="tags">intermediate ;web. pdf                         
-                                </span><span class="tooltip"> &#9910;
-                                    <span class="tooltiptext">   
-                                                rkmnd'ed by :- r001<br>  
-                        *Think Stats is an introduction to Probability and <br>
-                        Statistics for Python programmers.
-                        <br>
-                        <br>PDF book - 264 pages 
-                        <br>Read online in simple html
-                        <br>Github repository available
-                                </span>
+                        </span>
+                    </li>  
+                    <li>
+                        <a href="https://allendowney.github.io/AstronomicalData/README.html"target="_blank">
+                    Astronomical Data in Python
+                        </a>
+                            <span class="tags">intermediate ; web, ipynb, pdf-print
+                            </span><span class="tooltip"> &#9910;
+                                <span class="tooltiptext">   
+                                            rkmnd'ed by :- r001<br>  
+                    *Astronomical Data in Python is an introduction to tools <br>and practices for working with astronomical data. 
+                    <br>
+                    <br>.ipynb file available or print pdf
+                    <br>Read online through Github page or Colab Notebook
+                    
                             </span>
-                        </li>  
-                        <li>
-                            <a href="https://allendowney.github.io/AstronomicalData/README.html"target="_blank">
-                        Astronomical Data in Python
-                            </a>
-                                <span class="tags">intermediate ; web, ipynb, pdf-print
-                                </span><span class="tooltip"> &#9910;
-                                    <span class="tooltiptext">   
-                                                rkmnd'ed by :- r001<br>  
-                        *Astronomical Data in Python is an introduction to tools <br>and practices for working with astronomical data. 
-                        <br>
-                        <br>.ipynb file available or print pdf
-                        <br>Read online through Github page or Colab Notebook
-                        
-                                </span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://greenteapress.com/wp/think-dsp/"target="_blank">
+                    Think DSP - Digital Signal Processing in Python
+                        </a>
+                            <span class="tags">intermediate ; web , pdf
+                            </span><span class="tooltip"> &#9910;
+                                <span class="tooltiptext">   
+                                            rkmnd'ed by :- r001<br>  
+                    *Think DSP is an introduction to digital signal processing with<br> applications to sound and image processing
+                    <br>
+                    <br>PDF book - 153 pages 
+                    <br>Read online in simple html
+                    <br>Github repository available
                             </span>
-                        </li>
-                        <li>
-                            <a href="https://greenteapress.com/wp/think-dsp/"target="_blank">
-                        Think DSP - Digital Signal Processing in Python
-                            </a>
-                                <span class="tags">intermediate ; web , pdf
-                                </span><span class="tooltip"> &#9910;
-                                    <span class="tooltiptext">   
-                                                rkmnd'ed by :- r001<br>  
-                        *Think DSP is an introduction to digital signal processing with<br> applications to sound and image processing
-                        <br>
-                        <br>PDF book - 153 pages 
-                        <br>Read online in simple html
-                        <br>Github repository available
-                                </span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://greenteapress.com/wp/think-complexity-2e/"target="_blank">
+                    Think Complexity 2e
+                        </a>
+                            <span class="tags">advance ; web, pdf
+                            </span><span class="tooltip"> &#9910;
+                                <span class="tooltiptext">   
+                                            rkmnd'ed by :- r001<br>  
+                    *An introduction to complexity science, which includes with
+                    <br>small-world graphs, scale-free networks, cellular <br>automata,fractals and pink noise, self-organized <br>criticality, and agent-based models.
+                    <br>
+                    <br>PDF book - 228 pages 
+                    <br>Read online in simple html
+                    <br>Github repository available
                             </span>
-                        </li>
-                        <li>
-                            <a href="https://greenteapress.com/wp/think-complexity-2e/"target="_blank">
-                        Think Complexity 2e
-                            </a>
-                                <span class="tags">advance ; web, pdf
-                                </span><span class="tooltip"> &#9910;
-                                    <span class="tooltiptext">   
-                                                rkmnd'ed by :- r001<br>  
-                        *An introduction to complexity science, which includes with
-                        <br>small-world graphs, scale-free networks, cellular <br>automata,fractals and pink noise, self-organized <br>criticality, and agent-based models.
-                        <br>
-                        <br>PDF book - 228 pages 
-                        <br>Read online in simple html
-                        <br>Github repository available
-                                </span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://greenteapress.com/wp/modsimpy/"target="_blank">
+                    Modeling and Simulation in Python
+                        </a>
+                            <span class="tags">advance ; web, ipynb. pdf
+                            </span><span class="tooltip"> &#9910;
+                                <span class="tooltiptext">   
+                                            rkmnd'ed by :- r001<br>  
+                    *Modeling and Simulation in Python is an introduction
+                    <br>to physical modeling using a computational approach.
+                    <br>
+                    <br>v4
+                    <br>.ipynb file available or print pdf
+                    <br>Read online through Github page or Colab Notebook
+                    <br>
+                    <br>v3
+                    <br>PDF book - 247 pages
                             </span>
-                        </li>
-                        <li>
-                            <a href="https://greenteapress.com/wp/modsimpy/"target="_blank">
-                        Modeling and Simulation in Python
-                            </a>
-                                <span class="tags">advance ; web, ipynb. pdf
-                                </span><span class="tooltip"> &#9910;
-                                    <span class="tooltiptext">   
-                                                rkmnd'ed by :- r001<br>  
-                        *Modeling and Simulation in Python is an introduction
-                        <br>to physical modeling using a computational approach.
-                        <br>
-                        <br>v4
-                        <br>.ipynb file available or print pdf
-                        <br>Read online through Github page or Colab Notebook
-                        <br>
-                        <br>v3
-                        <br>PDF book - 247 pages
-                                </span>
-                            </span>
-                        </li>
-    
-                    </ul>
-    
-                </li>
-            </ul>
-        </li>
-    </ul>
+                        </span>
+                    </li>
+
+                </ul>
+
+            </li>
+        </ul>
+    </li>
+</ul>
 
 </div>
 
@@ -830,8 +831,8 @@
                 to see <br>additional information and testimonials
             </span>
         </span> ]<br>
-        click on [&#x2604;] to enable dark-mode<br>
-        click on [&#9776] to view menu<br>
+        click on [ &#x2604; ] to enable dark-mode<br>
+        click on [ &#9776 ] to view menu<br>
         best viewed on large screen / landscape mode<br>
         -
         <br>defaults (otherwise stated)
@@ -839,8 +840,7 @@
         video-platform :<span style="vertical-align:sub;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span><br>-<br>
             <a href="icons" style="color: white;">NORMAL-LINK</a>&nbsp;
-        <a href="#" style="color: #00ff4c;">VISITED-LINK</a>&nbsp;
-        <a href="#" style="color: yellow;">ACTIVE-LINK</a>&nbsp;
+        <a href="#" style="color: #6bada5;">VISITED-LINK</a>&nbsp;
         NORMAL-TEXT<br>-<br>
         website contains blinking colour
 
@@ -877,10 +877,12 @@
 	  });
 	}
 
+    document.getElementById("demo").innerHTML = "Paragraph changed!";
+
 </script>   
 </body>
 </html> 
-<!-- to add a new resourse ctrl+c/v
+<!-- to add a new resource ctrl+c/v
                 <li>
                     <a href="   ------     "
                     target="_blank">       -----        </a>
