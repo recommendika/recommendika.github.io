@@ -51,7 +51,15 @@
         <p></p>
     <p class="w-center" style="color: var(--text-sub-color)">
         Most sections are not enough populated.. Head to menu &#187; contribute to  help expanding.<br>
-        Currently populated sections are physics, python and #wander.
+        Currently populated sections are physics, python and #wander. hover over [  <span class="tooltip" style="vertical-align: middle;"> &#9910;
+            <span class="tooltiptext" style="top: -40px;
+            left: -180px;">
+                to see <br>quick summary/info and testimonials<br><b>FORMAT</b><br>
+                rkmnd'ed by :- [rkmnd'er ID]<br>"testimonial"<br>...<br>
+                quick summary
+                <br>
+            </span>
+        </span> ]
         </p>
     </div>
 
@@ -61,8 +69,7 @@
         <button class="tablinks" onclick="openCat(event, 'create')">create  </button>
         <button class="tablinks" onclick="openCat(event, 'tools')">	tools </button>
         <button class="tablinks" onclick="openCat(event, 'wander')">#wander</button>
-        <button class="msg-btn" onclick="openMainList(event, 'msg')"><span style="font-size: xx-large;color: red;"> &#9888;</span></button>
-        <button class="msg-btn" onclick="openMainList(event, 'tagsINFO')"><span style="font-size: xx-large;color: yellow;">&#128712;</span></button>
+        <button class="tablinks" onclick="openMainList(event, 'tagsINFO')"><span style="font-size: xx-large;color: yellow;"> &#9888;</span></button>
         
     </div>
 </div>
@@ -186,7 +193,7 @@
                     <span class="tooltip"> &#9910;
                         <span class="tooltiptext">
                             rkmnd'ed by:- r001 <br>
-                            ""made me fall in love with physics again"
+                            "made me fall in love with physics again"
                         </span>
                     </span>
                 </li> 
@@ -225,6 +232,7 @@
                     <span class="tooltip"> &#9910;
                         <span class="tooltiptext">   
                         rkmnd'ed by :- r001<br>
+                        "no testimonial available" <br>...<br>
                         "Contains a total of 49 lectures divided into two courses<br>
                         Fundamental Of physics I (24) and FOPhy II (25)<br>
                         Other features include : <br>
@@ -240,14 +248,14 @@
         <ul id="section-head">
                 <li><span class="caret">AUDIO</span>
                 <ul class="nested">
-                    <li>No resource</li>  
+                    <li>No resource yet found</li>  
                 </ul>
                 </li>
         </ul>
         <ul id="section-head">
             <li><span class="caret">PROBLEM PRACTICE</span>
             <ul class="nested">
-                <li>No resource</li>  
+                <li>No resource yet found</li>  
             </ul>
             </li>
     </ul>
@@ -271,7 +279,7 @@
         <ul id="section-head">
                 <li><span class="caret">TEXT BOOK</span>
                 <ul class="nested">
- 
+                    <li>No resource yet found</li>  
                 </ul>
                 </li>
         </ul>
@@ -357,8 +365,8 @@
                         target="_blank">Physics Stack Exchange  </a>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>
-                            "no testimonial available" <br>
+                            rkmnd'ed by :- r001<br>...<br>
+                            Q&amp;A for active researchers, academics and students of physics <br>
                             </span>
                         </span>
                     </li> 
@@ -367,8 +375,10 @@
                         target="_blank">r/Physics  </a>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>
-                            "no testimonial available" <br>
+                            rkmnd'ed by :- r001<br>...<br>
+                            The aim of /r/Physics is to build a subreddit<br>
+                             frequented by physicists, scientists, and those <br>
+                             with a passion for physics <br>
                             </span>
                         </span>
                     </li>
@@ -377,8 +387,9 @@
                         target="_blank">r/AskPhysics  </a>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>
-                            "no testimonial available" <br>
+                            rkmnd'ed by :- r001<br>...<br>
+                            A subreddit to draw simple physics<br>
+                             questions away from /r/physics. <br>
                             </span>
                         </span>
                     </li>   
@@ -390,6 +401,24 @@
 
 <!--start | learn > cs > python-->
 <div id="python" class="listContent center">
+    <ul id="section-head">
+        <li><span class="caret">OFFICIAL<span class="tags">03</span></span>
+            <ul class="nested">
+                <li>
+                    <a href="https://www.python.org/"target="_blank">Website</a>
+                </li>
+                <li>
+                    <a href="https://docs.python.org/3.9/"target="_blank">Documentation</a><span class="tags">v3.9.5
+                    </span>
+                </li>
+                <li>
+                    <a href="https://github.com/python/cpython"target="_blank">Github Repo</a>
+                </li>
+            </ul> 
+    
+        </li>
+    
+    </ul>
     <ul id="section-head">
     <li><span class="caret">VIDEOS<span class="tags">03</span></span>
         <ul class="nested">
@@ -413,7 +442,7 @@
                     </span><span class="tooltip"> &#9910;
                         <span class="tooltiptext">   
                                     rkmnd'ed by :- r001<br>  
-            A playlist of of all the freecodecamp python courses.
+            A playlist of of all the freecodecamp python courses<br><b>by different content creators</b>
             <br>Contains videos for beginners to advance
             <br>covering a range of topics from simple
             <br>programming to web development and  
@@ -446,8 +475,8 @@
         </ul>
     </li>
 
-</ul>
-<ul id="section-head">
+    </ul>
+    <ul id="section-head">
     <li><span class="caret">TEXT BOOK<span class="tags">01</span></span>
         <ul class="nested">
             <li>
@@ -459,19 +488,26 @@
                         Contains many books in the<br>
                          domain of python ranging from <br>
                         beginner to advance and the author,<br>
-                        Allen B. Downey have made them available for free.
+                        Allen B. Downey have made them available for free.<br><B>ALL BOOKS</B><br>
+                        Elements of Data Science| intermediate | web[G,C]. ipynb, pdf-print <br>
+                        Think Bayes 2e | intermediate | web[G,C] ipynb, pdf-print <br>
+                        Think Stats 2e | intermediate | web[H] pdf- 264p<br>
+                        Astronomical Data in Python | intermediate | web[G,C], ipynb, pdf-print <br>
+                        Think DSP - Digital Signal Processing in Python | intermediate | web[H] , pdf-153p <br>
+                        Think Complexity 2e | advance | web[H], pdf-228p <br>
+                        Modeling and Simulation in Python | advance | web[G,C], ipynb. pdf-247p (v3) <br>
                     </span>
                 </span>
 
                 <ul class="sub-nested">
-                    <li>BEGINNERS</li> 
                     <li>
                         <a href="https://greenteapress.com/wp/think-python-2e/"
                         target="_blank">Think Python 2e</a>
-                            <span class="tags">bg ; web, pdf</span>
+                            <span class="tags">beginner ; web[H], pdf</span>
                             <span class="tooltip"> &#9910;
                                 <span class="tooltiptext">   
                                             rkmnd'ed by :- r001<br>  
+                                            no testimonial available<br>...<br>
                     *Think Python is an introduction to Python programming <br>
                     for beginners<br>
                     <br>
@@ -486,10 +522,11 @@
                         <a href="https://allendowney.github.io/ElementsOfDataScience/README.html"target="_blank">
                     Elements of Data Science
                         </a>
-                            <span class="tags">intermediate ; web. ipynb, pdf-print
+                            <span class="tags">intermediate ; web[G,C]. ipynb, pdf-print
                             </span><span class="tooltip"> &#9910;
                                 <span class="tooltiptext">   
                                             rkmnd'ed by :- r001<br>  
+                                            no testimonial available<br>...<br>
                     *Elements of Data Science is an introduction to data science<br>
                      for people with no programming experience. 
                     <br>
@@ -497,97 +534,16 @@
                     <br>Read online through Github page or Colab Notebook
                             </span>
                     </span>
-                    </li>  
-                    <li>
-                        <a href="http://allendowney.github.io/ThinkBayes2/index.html"target="_blank">
-                    Think Bayes 2e
-                        </a>
-                            <span class="tags">intermediate ;web. ipynb, pdf-print
-                            </span><span class="tooltip"> &#9910;
-                                <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001<br>  
-                    *Think Bayes is an introduction to Bayesian statistics<br>
-                     using simple Python programs instead of complicated math.
-                    <br>
-                    <br>.ipynb file available or print pdf
-                    <br>Read online through Github page or Colab Notebook
-                            </span>
-                        </span>
                     </li> 
-                    <li>
-                        <a href="https://greenteapress.com/wp/think-stats-2e/"target="_blank">
-                            Think Stats 2e
-                        </a>
-                            <span class="tags">intermediate ;web. pdf                         
-                            </span><span class="tooltip"> &#9910;
-                                <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001<br>  
-                    *Think Stats is an introduction to Probability and <br>
-                    Statistics for Python programmers.
-                    <br>
-                    <br>PDF book - 264 pages 
-                    <br>Read online in simple html
-                    <br>Github repository available
-                            </span>
-                        </span>
-                    </li>  
-                    <li>
-                        <a href="https://allendowney.github.io/AstronomicalData/README.html"target="_blank">
-                    Astronomical Data in Python
-                        </a>
-                            <span class="tags">intermediate ; web, ipynb, pdf-print
-                            </span><span class="tooltip"> &#9910;
-                                <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001<br>  
-                    *Astronomical Data in Python is an introduction to tools <br>and practices for working with astronomical data. 
-                    <br>
-                    <br>.ipynb file available or print pdf
-                    <br>Read online through Github page or Colab Notebook
-                    
-                            </span>
-                        </span>
-                    </li>
-                    <li>
-                        <a href="https://greenteapress.com/wp/think-dsp/"target="_blank">
-                    Think DSP - Digital Signal Processing in Python
-                        </a>
-                            <span class="tags">intermediate ; web , pdf
-                            </span><span class="tooltip"> &#9910;
-                                <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001<br>  
-                    *Think DSP is an introduction to digital signal processing with<br> applications to sound and image processing
-                    <br>
-                    <br>PDF book - 153 pages 
-                    <br>Read online in simple html
-                    <br>Github repository available
-                            </span>
-                        </span>
-                    </li>
-                    <li>
-                        <a href="https://greenteapress.com/wp/think-complexity-2e/"target="_blank">
-                    Think Complexity 2e
-                        </a>
-                            <span class="tags">advance ; web, pdf
-                            </span><span class="tooltip"> &#9910;
-                                <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001<br>  
-                    *An introduction to complexity science, which includes with
-                    <br>small-world graphs, scale-free networks, cellular <br>automata,fractals and pink noise, self-organized <br>criticality, and agent-based models.
-                    <br>
-                    <br>PDF book - 228 pages 
-                    <br>Read online in simple html
-                    <br>Github repository available
-                            </span>
-                        </span>
-                    </li>
                     <li>
                         <a href="https://greenteapress.com/wp/modsimpy/"target="_blank">
                     Modeling and Simulation in Python
                         </a>
-                            <span class="tags">advance ; web, ipynb. pdf
+                            <span class="tags">advance ; web[G,C], ipynb. pdf
                             </span><span class="tooltip"> &#9910;
                                 <span class="tooltiptext">   
                                             rkmnd'ed by :- r001<br>  
+                                            no testimonial available<br>...<br>
                     *Modeling and Simulation in Python is an introduction
                     <br>to physical modeling using a computational approach.
                     <br>
@@ -606,7 +562,35 @@
             </li>
         </ul>
     </li>
-</ul>
+    </ul>
+    <ul id="section-head">
+        <li><span class="caret">COMMUNITY<span class="tags">02</span></span>
+        <ul class="nested">
+            <li>
+                <a href="https://stackoverflow.com/questions/tagged/python"
+                target="_blank">Stack Overflow</a>
+                <span class="tooltip"> &#9910;
+                    <span class="tooltiptext"> 
+                        rkmnd'ed by :- r001<br>...<br>
+                    Questions tagged 'PYTHON'<br>
+                    </span>
+                </span>
+            </li> 
+            <li>
+                <a href="https://www.reddit.com/r/learnpython/"
+                target="_blank">r/learnpython</a>
+                <span class="tooltip"> &#9910;
+                    <span class="tooltiptext">   
+                        rkmnd'ed by :- r001<br>...<br>
+                        Subreddit for posting questions and asking<br>
+                         for general advice about your python code.
+                    </span>
+                </span>
+            </li>   
+        </ul>
+        </li>
+    </ul>
+
 
 </div>
 
@@ -815,36 +799,10 @@
 <!--ends | wander section-->
 
 
-<div id="msg" class="listContent center">
-    <p class="w-center" style="margin-bottom: 0px;cursor: not-allowed;color: red;">
-        LEGENDS & INFO
-    </p>
 
-
-
-    
-    <p class="w-center w-caret" style="border:none;margin-bottom: 0px;">
-        hover over [  <span class="tooltip" style="vertical-align: middle;"> &#9910;
-            <span class="tooltiptext" style="top: -40px;
-            left: -180px;">
-                to see <br>additional information and testimonials
-            </span>
-        </span> ]<br>
-        best viewed on large screen / landscape mode<br>
-        -
-        <br>defaults (otherwise stated)
-        <br>language : english<br>
-        video-platform :<span style="vertical-align:sub;">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span><br>-<br>
-            <a href="icons" style="color: white;">NORMAL-LINK</a>&nbsp;
-        <a href="#" style="color: #6bada5;">VISITED-LINK</a>&nbsp;
-        NORMAL-TEXT<br>-<br>
-        
-
-    </p>
-</div>
 
 <div id="tagsINFO" class="listContent center">
+    
     <p class="w-center" style="margin-bottom: 0px;cursor: not-allowed;color: yellow;">
         tags glossary
     </p>
@@ -853,6 +811,7 @@
         <li><span class="tagsINFOs">pdf-print</span> :- pdf can be obtained using the print function of a web browser.</li>
         <li><span class="tagsINFOs">pdf</span> :- normal pdf file format</li>
         <li><span class="tagsINFOs">ipynb</span> :- jupyter notebook format [python]</li>
+        <li><span class="tagsINFOs">web[H/G/C]</span> :- H-html_page G-github_page C-colab_notebook [python]</li>
         <li style="color: var(--text-sub-color);">SUBJECT LEVEL</li>
         <li><span class="tagsINFOs">ug</span> :- undergraduate</li>
         <li><span class="tagsINFOs">pg</span> :- postgraduate</li>
@@ -862,7 +821,13 @@
         <li><span class="tagsINFOs">en</span> :- english</li>
         <li><span class="tagsINFOs">de</span> :- german</li>
         <li><span class="tagsINFOs">multi-lang</span> :- available in more than 2 language</li>
+        <br>
+        <li style="color: var(--text-sub-color);">-- DEFAULTS -- (are not shown on tags)</li>
+        <li><span class="tagsINFOs">language</span> :- english</li>
+        <li><span class="tagsINFOs">video platform</span> :- youtube</li>
     </ul>
+    <br>
+    
 </div>
 
 <div id='default-msg' class="listContent" style="border:none;display: flex;flex-direction:column;height: 25vw;
@@ -895,6 +860,11 @@ align-items: center;">
 </div>
 <footer id="main-foot" class="main-footer">
     <span class="last-up">#recommendika</span>
+    <span>
+    <a href="icons" style="color: white;">NORMAL-LINKS</a>&nbsp;
+        <a href="#" style="color: #6bada5;">VISITED-LINKS</a>&nbsp;
+        NORMAL-TEXT</span>
+        
     
     <span class="last-up">last updated : 15 June 2021</span>
 </footer>

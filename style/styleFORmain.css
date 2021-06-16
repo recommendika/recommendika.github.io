@@ -141,14 +141,7 @@ li{
   .listContent{
       display: none;
   }
-  .msg-btn{
-    padding: 1px 20px;
-    margin:10px 4px;
-    border: 1px solid red;
-      border-radius:100px;
-      background: transparent!important;
-      cursor: not-allowed;
-  }
+
   .tablinks{
     padding: 2px 30px;
     margin:10px 4px;
