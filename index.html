@@ -44,6 +44,7 @@
 
 
 
+
 </div>
 
   
@@ -54,18 +55,16 @@
         Currently populated sections are physics, python and #wander. hover over [  <span class="tooltip" style="vertical-align: middle;"> &#9910;
             <span class="tooltiptext" style="top: -40px;
             left: -180px;">
-                to see <br>quick summary/info and testimonials<br><b>FORMAT</b><br>
-                rkmnd'ed by :- [rkmnd'er ID]<br>"testimonial"<br>...<br>
-                quick summary
+                to see <br>who rkmnded it<br>
                 <br>
             </span>
-        </span> ]
+        </span> ] (this also indicates that the link is active)
         </p>
     </div>
 
 <div class="main-list center">
     <div class="main-sel">
-        <button class="tablinks" onclick="openCat(event, 'learn')">Learn</button>
+        <button class="tablinks" onclick="openCat(event, 'learn')">learn </button>
         <button class="tablinks" onclick="openCat(event, 'create')">create  </button>
         <button class="tablinks" onclick="openCat(event, 'tools')">	tools </button>
         <button class="tablinks" onclick="openCat(event, 'wander')">#wander</button>
@@ -78,8 +77,8 @@
 <div class="category-list center">
     <!--start | learn-->
     <div id="learn" class="category">
-        <button class="tablinks" onclick="openDis(event, 'science')">science & maths</button>
-        <button class="tablinks" onclick="openDis(event, 'cs')">computer science  </button>
+        <button class="tablinks" onclick="openDis(event, 'science')">science & maths (15)</button>
+        <button class="tablinks" onclick="openDis(event, 'cs')">computer science (18)  </button>
         <button class="tablinks" onclick="openDis(event, 'humanities')">humanities  </button>
         <button class="tablinks" onclick="openDis(event, 'arts')">art  </button>
         <button class="tablinks" onclick="openDis(event, 'language')">language  </button>
@@ -88,9 +87,8 @@
 
     <!--start | create-->
     <div id="create" class="category">
-        <button class="tablinks" onclick="openDis(event, 'arts-cr')">art</button>
-        <button class="tablinks" onclick="openDis(event, 'maths')">programs</button>
-        <button class="tablinks" onclick="openDis(event, 'arts')">art</button>
+        <button class="tablinks" onclick="openDis(event, 'cr-arts')">art</button>
+        <button class="tablinks" onclick="openDis(event, 'cr-prog')">programs</button>
     </div>
     <!--ends | create-->
 
@@ -119,7 +117,7 @@
 <div class="discipline-list center">
     <!--start | learn > science-->
     <div id="science" class="discipline">
-        <button class="tablinks" onclick="openMainList(event, 'physics')">🚀 PHY</button>
+        <button class="tablinks" onclick="openMainList(event, 'physics')">🚀 PHY (15)</button>
         <button class="tablinks" onclick="openMainList(event, 'maths')">🧮 MATHS</button>
         <button class="tablinks" onclick="openMainList(event, 'chemistry')">🧪 CHEM</button>
         <button class="tablinks" onclick="openMainList(event, 'biology')">🧬  BIO</button>
@@ -130,11 +128,11 @@
     <!--start | learn > cs-->
     <div id="cs" class="discipline">
         <button class="tablinks" onclick="openMainList(event, 'web-dev')">web dev</button>
-        <button class="tablinks" onclick="openMainList(event, 'python')">🐍 python</button>
+        <button class="tablinks" onclick="openMainList(event, 'python')">🐍 python (9)</9></button>
         <button class="tablinks" onclick="openMainList(event, 'dbs')">database</button>
         <button class="tablinks" onclick="openMainList(event, 'network')">network</button>
         <button class="tablinks" onclick="openMainList(event, 'cyber')">cyber security</button>
-        <button class="tablinks" onclick="openMainList(event, 'ai')">ai | ml</button>
+        <button class="tablinks" onclick="openMainList(event, 'ai')">ai | ml (9) </button>
     </div>
     <!--ends | learn > cs-->
 
@@ -163,6 +161,16 @@
         <button class="tablinks" onclick="openMainList(event, 'sign-lang')">sign language</button>
     </div>
     <!--ends | learn > language-->
+
+
+    <!--start | create > programs-->
+    <div id="cr-prog" class="discipline">
+        <button class="tablinks" onclick="openMainList(event, 'cr-prog-lan-ind')">language independent</button>
+        <button class="tablinks" onclick="openMainList(event, 'hhhhh')">.</button>
+    </div>
+    <!--ends | create > program-->
+
+
 
     <!--start | wander-->
     <div id="wander-list" class="discipline">
@@ -203,8 +211,7 @@
                     <span class="tags">ug</span>
                     <span class="tooltip"> &#9910; 
                         <span class="tooltiptext">   
-                        rkmnd'ed by :- r002<br>
-                        "no testimonial available" <br>
+                        rkmnd'ed by :- r002
                         </span>
                     </span>
                 </li>
@@ -220,8 +227,7 @@
                     <span class="tags">ug/pg ; web</span>
                     <span class="tooltip"> &#9910;
                         <span class="tooltiptext">   
-                        rkmnd'ed by :- r001<br>
-                        "no testimonial available" <br>
+                        rkmnd'ed by :- r001
                         </span>
                     </span>
                 </li> 
@@ -231,8 +237,7 @@
                     <span class="tags">ug ; web</span>
                     <span class="tooltip"> &#9910;
                         <span class="tooltiptext">   
-                        rkmnd'ed by :- r001<br>
-                        "no testimonial available" <br>...<br>
+                        rkmnd'ed by :- r001<br>...<br>
                         "Contains a total of 49 lectures divided into two courses<br>
                         Fundamental Of physics I (24) and FOPhy II (25)<br>
                         Other features include : <br>
@@ -268,8 +273,7 @@
                         <span class="tags">multi-lang</span>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>
-                            "no testimonial available" <br>
+                            rkmnd'ed by :- r001
                             </span>
                         </span>
                     </li>   
@@ -277,9 +281,28 @@
                 </li>
         </ul>
         <ul id="section-head">
-                <li><span class="caret">TEXT BOOK</span>
+                <li><span class="caret">TEXT BOOK<span class="tags">02</span></span>
                 <ul class="nested">
-                    <li>No resource yet found</li>  
+                    <li>
+                        <a href="http://www.lightandmatter.com/books.html"
+                        target="_blank">Light and Matter: open-source physics textbooks | Ben Crowell  </a>
+                        <span class="tags">pdf</span>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001
+                            </span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://www.gutenberg.org/ebooks/bookshelf/103"
+                        target="_blank">Books in Physics | Project Gutenberg  </a>
+                        <span class="tags">web[h], pdf, epub</span>
+                        <span class="tooltip"> &#9910;
+                            <span class="tooltiptext">   
+                            rkmnd'ed by :- r001
+                            </span>
+                        </span>
+                    </li>  
                 </ul>
                 </li>
         </ul>
@@ -288,11 +311,10 @@
                 <ul class="nested">
                     <li>
                         <a href="http://labman.phys.utk.edu/3D%20Physics/"
-                        target="_blank">3D PHYSICS(The University of Tennessee)  </a>
+                        target="_blank">3D PHYSICS | The University of Tennessee  </a>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>
-                            "no testimonial available" <br>
+                            rkmnd'ed by :- r001
                             </span>
                         </span>
                     </li> 
@@ -309,8 +331,7 @@
                         <span class="tags">multi-lang</span>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001  <br>
-                            no testimonial available,  <br>       
+                            rkmnd'ed by :- r001  
                             </span>
                         </span>
                     </li> 
@@ -319,8 +340,7 @@
                         target="_blank">oPhysics: Interactive Phy. Sim.  </a>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001  <br>
-                            no testimonial available,  <br>       
+                            rkmnd'ed by :- r001
                             </span>
                         </span>
                     </li> 
@@ -330,8 +350,7 @@
                         <span class="tags">en/de</span>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>
-                            "... and don't forget to check out the graphs, they are amazing ... " <br>
+                            rkmnd'ed by :- r001
                             </span>
                         </span>
                     </li> 
@@ -349,8 +368,7 @@
                         <span class="tags">pdf</span>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>
-                            "no testimonial available" <br>
+                            rkmnd'ed by :- r001
                             </span>
                         </span>
                     </li>  
@@ -365,8 +383,7 @@
                         target="_blank">Physics Stack Exchange  </a>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>...<br>
-                            Q&amp;A for active researchers, academics and students of physics <br>
+                            rkmnd'ed by :- r001
                             </span>
                         </span>
                     </li> 
@@ -375,10 +392,7 @@
                         target="_blank">r/Physics  </a>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>...<br>
-                            The aim of /r/Physics is to build a subreddit<br>
-                             frequented by physicists, scientists, and those <br>
-                             with a passion for physics <br>
+                            rkmnd'ed by :- r001
                             </span>
                         </span>
                     </li>
@@ -387,9 +401,7 @@
                         target="_blank">r/AskPhysics  </a>
                         <span class="tooltip"> &#9910;
                             <span class="tooltiptext">   
-                            rkmnd'ed by :- r001<br>...<br>
-                            A subreddit to draw simple physics<br>
-                             questions away from /r/physics. <br>
+                            rkmnd'ed by :- r001
                             </span>
                         </span>
                     </li>   
@@ -400,19 +412,20 @@
 <!--ends | learn > science > physics-->
 
 <!--start | learn > cs > python-->
+
 <div id="python" class="listContent center">
     <ul id="section-head">
         <li><span class="caret">OFFICIAL<span class="tags">03</span></span>
             <ul class="nested">
                 <li>
-                    <a href="https://www.python.org/"target="_blank">Website</a>
+                    <a href="https://www.python.org/" target="_blank">Website</a>
                 </li>
                 <li>
-                    <a href="https://docs.python.org/3.9/"target="_blank">Documentation</a><span class="tags">v3.9.5
+                    <a href="https://docs.python.org/3.9/" target="_blank">Documentation</a><span class="tags">v3.9.5
                     </span>
                 </li>
                 <li>
-                    <a href="https://github.com/python/cpython"target="_blank">Github Repo</a>
+                    <a href="https://github.com/python/cpython" target="_blank">Github Repo</a>
                 </li>
             </ul> 
     
@@ -485,17 +498,14 @@
                 <span class="tags">all levels</span>
                 <span class="tooltip"> &#9910;
                     <span class="tooltiptext">   
-                        Contains many books in the<br>
-                         domain of python ranging from <br>
-                        beginner to advance and the author,<br>
-                        Allen B. Downey have made them available for free.<br><B>ALL BOOKS</B><br>
-                        Elements of Data Science| intermediate | web[G,C]. ipynb, pdf-print <br>
-                        Think Bayes 2e | intermediate | web[G,C] ipynb, pdf-print <br>
-                        Think Stats 2e | intermediate | web[H] pdf- 264p<br>
-                        Astronomical Data in Python | intermediate | web[G,C], ipynb, pdf-print <br>
-                        Think DSP - Digital Signal Processing in Python | intermediate | web[H] , pdf-153p <br>
-                        Think Complexity 2e | advance | web[H], pdf-228p <br>
-                        Modeling and Simulation in Python | advance | web[G,C], ipynb. pdf-247p (v3) <br>
+                        <B>ALL BOOKS</B><br>
+                        Elements of Data Science-- intermediate  -- web[G,C]. ipynb, pdf-print <br>
+                        Think Bayes 2e -- intermediate -- web[G,C] ipynb, pdf-print <br>
+                        Think Stats 2e -- intermediate -- web[H] pdf- 264p<br>
+                        Astronomical Data in Python -- intermediate -- web[G,C], ipynb, pdf-print <br>
+                        Think DSP - Digital Signal Processing in Python -- intermediate -- web[H] , pdf-153p <br>
+                        Think Complexity 2e -- advance -- web[H], pdf-228p <br>
+                        Modeling and Simulation in Python -- advance -- web[G,C], ipynb. pdf-247p (v3) <br>
                     </span>
                 </span>
 
@@ -506,14 +516,7 @@
                             <span class="tags">beginner ; web[H], pdf</span>
                             <span class="tooltip"> &#9910;
                                 <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001<br>  
-                                            no testimonial available<br>...<br>
-                    *Think Python is an introduction to Python programming <br>
-                    for beginners<br>
-                    <br>
-                    .PDF book - 244 pages<br>
-                    Read online in simple html<br>
-                    Contains github repository
+                                            rkmnd'ed by :- r001
                                 </span>
                             </span>
                     </li> 
@@ -525,13 +528,7 @@
                             <span class="tags">intermediate ; web[G,C]. ipynb, pdf-print
                             </span><span class="tooltip"> &#9910;
                                 <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001<br>  
-                                            no testimonial available<br>...<br>
-                    *Elements of Data Science is an introduction to data science<br>
-                     for people with no programming experience. 
-                    <br>
-                    <br>.ipynb file available or print pdf
-                    <br>Read online through Github page or Colab Notebook
+                                            rkmnd'ed by :- r001
                             </span>
                     </span>
                     </li> 
@@ -542,17 +539,7 @@
                             <span class="tags">advance ; web[G,C], ipynb. pdf
                             </span><span class="tooltip"> &#9910;
                                 <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001<br>  
-                                            no testimonial available<br>...<br>
-                    *Modeling and Simulation in Python is an introduction
-                    <br>to physical modeling using a computational approach.
-                    <br>
-                    <br>v4
-                    <br>.ipynb file available or print pdf
-                    <br>Read online through Github page or Colab Notebook
-                    <br>
-                    <br>v3
-                    <br>PDF book - 247 pages
+                                            rkmnd'ed by :- r001
                             </span>
                         </span>
                     </li>
@@ -571,8 +558,7 @@
                 target="_blank">Stack Overflow</a>
                 <span class="tooltip"> &#9910;
                     <span class="tooltiptext"> 
-                        rkmnd'ed by :- r001<br>...<br>
-                    Questions tagged 'PYTHON'<br>
+                        rkmnd'ed by :- r001
                     </span>
                 </span>
             </li> 
@@ -581,9 +567,7 @@
                 target="_blank">r/learnpython</a>
                 <span class="tooltip"> &#9910;
                     <span class="tooltiptext">   
-                        rkmnd'ed by :- r001<br>...<br>
-                        Subreddit for posting questions and asking<br>
-                         for general advice about your python code.
+                        rkmnd'ed by :- r001
                     </span>
                 </span>
             </li>   
@@ -594,10 +578,175 @@
 
 </div>
 
-
 <!--ends | learn > cs > python-->
 
 
+<!--start | learn > cs > ai-->
+
+<div id="ai" class="listContent center">
+    <ul id="section-head">
+        <li><span class="caret">VIDEOS<span class="tags">01</span></span>
+            <ul class="nested">
+                <li>
+                    <a href="https://www.youtube.com/user/keeroyz" target="_blank">Two Minute Papers</a>
+                    <span class="tags"> intermediate</span>
+                    <span class="tooltip"> &#9910;
+                        <span class="tooltiptext">
+                            rkmnd'ed by:- r001 <br>
+                        </span>
+                    </span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul id="section-head">
+        <li><span class="caret">COURSES<span class="tags">02</span></span>
+            <ul class="nested">
+                <li>
+                    <a href="https://developers.google.com/machine-learning/crash-course" target="_blank">
+                        Machine Learning Crash Course | Google Developers</a>
+                    <span class="tags"> multi-lang, bg, web</span>
+                    <span class="tooltip"> &#9910;
+                        <span class="tooltiptext">
+                            rkmnd'ed by:- r001 <br>
+                        </span>
+                    </span>
+                </li>
+                <li>
+                    <a href="https://github.com/microsoft/ML-For-Beginners" target="_blank">
+                        Machine Learning for Beginners | Microsoft</a>
+                    <span class="tags"> multi-lang, bg, web[Github]</span>
+                    <span class="tooltip"> &#9910;
+                        <span class="tooltiptext">
+                            rkmnd'ed by:- r001 <br>
+                        </span>
+                    </span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul id="section-head">
+        <li><span class="caret">WEBSITES<span class="tags">01</span></span>
+            <ul class="nested">
+                <li>
+                    <a href="https://www.elementsofai.com/" target="_blank">
+                        Elements of AI - A free online introduction to AI for non-experts</a>
+                    <span class="tags"> multi-lang, bg</span>
+                    <span class="tooltip"> &#9910;
+                        <span class="tooltiptext">
+                            rkmnd'ed by:- r001 <br>
+                        </span>
+                    </span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul id="section-head">
+        <li><span class="caret">RESEARCH PAPER<span class="tags">01</span></span>
+        <ul class="nested">
+            <li>
+                <a href="https://arxiv.org/list/cs.AI/recent"
+                target="_blank">arXiv  </a>
+                <span class="tags">pdf</span>
+                <span class="tooltip"> &#9910;
+                    <span class="tooltiptext">   
+                    rkmnd'ed by :- r001
+                    </span>
+                </span>
+            </li>  
+        </ul>
+        </li>
+</ul>
+    <ul id="section-head">
+        <li><span class="caret">COMMUNITY<span class="tags">04</span></span>
+        <ul class="nested">
+            <li>
+                <a href="https://ai.stackexchange.com/"
+                target="_blank">Artificial Intelligence Stack Exchange</a>
+                <span class="tooltip"> &#9910;
+                    <span class="tooltiptext">   
+                    rkmnd'ed by :- r001
+                    </span>
+                </span>
+            </li> 
+            <li>
+                <a href="https://www.reddit.com/r/artificial/"
+                target="_blank">r/artificial </a>
+                <span class="tooltip"> &#9910;
+                    <span class="tooltiptext">   
+                    rkmnd'ed by :- r001
+                    </span>
+                </span>
+            </li> 
+            <li>
+                <a href="https://www.reddit.com/r/MachineLearning"
+                target="_blank">r/MachineLearning</a>
+                <span class="tooltip"> &#9910;
+                    <span class="tooltiptext">   
+                    rkmnd'ed by :- r001
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="https://www.reddit.com/r/learnmachinelearning/"
+                target="_blank">r/learnmachinelearning </a>
+                <span class="tooltip"> &#9910;
+                    <span class="tooltiptext">   
+                    rkmnd'ed by :- r001
+                    </span>
+                </span>
+            </li> 
+            
+        </ul>
+        </li>
+</ul>
+</div> 
+ 
+<!--ends | learn > cs > ai-->
+
+<!--start | create > program > language independent-->
+<div id="cr-prog-lan-ind" class="listContent center">
+    <ul id="section-head">CODE EDITOR 
+        <li><span class="caret">VS CODE <span class="tooltip"> &#9910;
+            <span class="tooltiptext">
+                rkmnd'ed by:- r001
+            </span>
+        </span></span>
+            <ul class="nested">
+                <li>
+                    <a href="https://code.visualstudio.com/Download" target="_blank">Download</a><span class="tags">linux, win, macOS</span>
+                </li>
+                <li>
+                    <a href="https://code.visualstudio.com/docs" target="_blank">Documentation</a>
+                </li>
+                - getting started
+                <ul>
+                    <li>
+                        <a href="https://youtu.be/ifTF3ags0XI" target="_blank">25 VS Code Productivity Tips and Speed Hacks</a><span class="tags">yt</span>
+                    </li>
+                </ul>
+                - useful extension
+                <li>
+                    <a href="vscode:extension/vscodevim.vim" target="_blank">Vim</a>
+                </li>
+                <ul>
+                    <li>
+                        <a href="https://youtu.be/-txKSRn0qeA" target="_blank">Vim in 100 Seconds</a><span class="tags">yt</span>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/wlR5gYd6um0" target="_blank">Mastering the Vim Language</a><span class="tags">yt</span>
+                    </li>
+                    <li>
+                        <a href="https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language" target="_blank">Learning Vim in 2014: Vim as Language</a><span class="tags">web</span>
+                    </li>
+                </ul>
+            </ul>   
+    
+        </li>
+    </ul>
+</div> 
+ 
+<!--ends | create > program > language independent-->
 
 <!--start | wander section-->
 <div id="w-web" class="listContent w-center">
@@ -658,7 +807,22 @@
         <li  class="w-caret">
             <a href="https://www.youtube.com/user/captainranic"
             target="_blank">Jared Owen</a>
-        </li> 
+        </li>
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/c/JohnnyHarrisvox"
+            target="_blank">Johnny Harris</a>
+        </li>
+        <li  class="w-caret">
+            ...
+        </li>
+        <li  class="w-caret">
+        <a href="https://www.youtube.com/channel/UCz4a7agVFr1TxU-mpAP8hkw"
+            target="_blank">Soch by Mohak Mangal</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/channel/UCatL-c6pmnjzEOHSyjn-sHA"
+                target="_blank">Khan GS Research Centre</a>
+        </li>
         <li  class="w-caret">
             ...
         </li> 
@@ -730,6 +894,10 @@
             target="_blank">Kun Faya Kun - Rockstar</a>
         </li>
         <li  class="w-caret">
+            <a href="https://youtu.be/STsCWx_DbOo"
+            target="_blank">O Mere Dil Ke Chain</a>
+        </li>
+        <li  class="w-caret">
             <a href="https://youtu.be/m-PJmmvyP10"
             target="_blank">Alan Walker - Different World feat. Sofia Carson, K-391 & CORSAK</a>
         </li>  
@@ -740,6 +908,10 @@
         <li  class="w-caret">
             <a href="https://youtu.be/FM7MFYoylVs"
             target="_blank">The Chainsmokers & Coldplay - Something Just Like This</a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://youtu.be/3AtDnEC4zak"
+            target="_blank">Charlie Puth - We Don't Talk Anymore (ft. Selena Gomez)</a>
         </li>
         <li  class="w-caret">
             <a href="https://youtube.com/playlist?list=PLXGSkM44ouicZCGm2tHHyz89otXKe8sO0"
@@ -804,7 +976,7 @@
 <div id="tagsINFO" class="listContent center">
     
     <p class="w-center" style="margin-bottom: 0px;cursor: not-allowed;color: yellow;">
-        tags glossary
+        tags glossary [ language; level; filetype; platform ]
     </p>
     <ul style="list-style:georgian">
         <li style="color: var(--text-sub-color);">FILE FORMAT</li>
@@ -861,12 +1033,12 @@ align-items: center;">
 <footer id="main-foot" class="main-footer">
     <span class="last-up">#recommendika</span>
     <span>
-    <a href="icons" style="color: white;">NORMAL-LINKS</a>&nbsp;
+    <a href="#" style="color: white;">NORMAL-LINKS</a>&nbsp;
         <a href="#" style="color: #6bada5;">VISITED-LINKS</a>&nbsp;
         NORMAL-TEXT</span>
         
     
-    <span class="last-up">last updated : 15 June 2021</span>
+    <span class="last-up">last updated : 07 July 2021</span>
 </footer>
 <script>
     var toggler = document.getElementsByClassName("caret");
@@ -948,22 +1120,3 @@ align-items: center;">
     </script>
 </body>
 </html> 
-<!-- to add a new resource ctrl+c/v
-                <li>
-                    <a href="   ------     "
-                    target="_blank">       -----        </a>
-                    <span class="tags">     ------         </span>
-                    <span class="tooltip"> &#9910;
-                        <span class="tooltiptext">   
-                        rkmnd'ed by :- none  <br>
-                        no testimonial available,  <br>
-                        "                       "
-        
-                        </span>
-                    </span>
-                </li> 
-
-
-
-
--->
