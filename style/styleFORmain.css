@@ -25,6 +25,7 @@
   position: relative;
   display: inline-block;
   vertical-align: super; 
+  font-family: Courier;
   font-size: 70%;
   animation-name: blink-y-g;
   animation-duration: 2s;

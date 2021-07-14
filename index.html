@@ -55,7 +55,7 @@
         Currently populated sections are physics, python and #wander. hover over [  <span class="tooltip" style="vertical-align: middle;"> &#9910;
             <span class="tooltiptext" style="top: -40px;
             left: -180px;">
-                to see <br>who rkmnded it<br>
+                to see <br>additional info, subject to availability<br>
                 <br>
             </span>
         </span> ] (this also indicates that the link is active)
@@ -66,7 +66,6 @@
     <div class="main-sel">
         <button class="tablinks" onclick="openCat(event, 'learn')">learn </button>
         <button class="tablinks" onclick="openCat(event, 'create')">create  </button>
-        <button class="tablinks" onclick="openCat(event, 'tools')">	tools </button>
         <button class="tablinks" onclick="openCat(event, 'wander')">#wander</button>
         <button class="tablinks" onclick="openMainList(event, 'tagsINFO')"><span style="font-size: xx-large;color: yellow;"> &#9888;</span></button>
         
@@ -77,8 +76,8 @@
 <div class="category-list center">
     <!--start | learn-->
     <div id="learn" class="category">
-        <button class="tablinks" onclick="openDis(event, 'science')">science & maths (15)</button>
-        <button class="tablinks" onclick="openDis(event, 'cs')">computer science (18)  </button>
+        <button class="tablinks" onclick="openDis(event, 'science')">science & maths (16)</button>
+        <button class="tablinks" onclick="openDis(event, 'cs')">computer science (19)  </button>
         <button class="tablinks" onclick="openDis(event, 'humanities')">humanities  </button>
         <button class="tablinks" onclick="openDis(event, 'arts')">art  </button>
         <button class="tablinks" onclick="openDis(event, 'language')">language  </button>
@@ -92,11 +91,7 @@
     </div>
     <!--ends | create-->
 
-    <!--start | tools-->
-    <div id="tools" class="category">
-        <button class="tablinks" onclick="openDis(event, 't00ls')">privacy, productivity, multimedia</button>
-    </div>
-    <!--ends | tools-->
+    
 
     <!--start | wander-->
     <div id="wander" class="category">
@@ -117,7 +112,7 @@
 <div class="discipline-list center">
     <!--start | learn > science-->
     <div id="science" class="discipline">
-        <button class="tablinks" onclick="openMainList(event, 'physics')">🚀 PHY (15)</button>
+        <button class="tablinks" onclick="openMainList(event, 'physics')">🚀 PHY (16)</button>
         <button class="tablinks" onclick="openMainList(event, 'maths')">🧮 MATHS</button>
         <button class="tablinks" onclick="openMainList(event, 'chemistry')">🧪 CHEM</button>
         <button class="tablinks" onclick="openMainList(event, 'biology')">🧬  BIO</button>
@@ -132,7 +127,7 @@
         <button class="tablinks" onclick="openMainList(event, 'dbs')">database</button>
         <button class="tablinks" onclick="openMainList(event, 'network')">network</button>
         <button class="tablinks" onclick="openMainList(event, 'cyber')">cyber security</button>
-        <button class="tablinks" onclick="openMainList(event, 'ai')">ai | ml (9) </button>
+        <button class="tablinks" onclick="openMainList(event, 'ai')">ai | ml (10) </button>
     </div>
     <!--ends | learn > cs-->
 
@@ -166,7 +161,6 @@
     <!--start | create > programs-->
     <div id="cr-prog" class="discipline">
         <button class="tablinks" onclick="openMainList(event, 'cr-prog-lan-ind')">language independent</button>
-        <button class="tablinks" onclick="openMainList(event, 'hhhhh')">.</button>
     </div>
     <!--ends | create > program-->
 
@@ -175,9 +169,7 @@
     <!--start | wander-->
     <div id="wander-list" class="discipline">
         <button class="tablinks" onclick="openMainList(event, 'w-web')">websites</button>
-        <button class="tablinks" onclick="openMainList(event, 'w-yt-ch')">yt-channels</button>
-        <button class="tablinks" onclick="openMainList(event, 'w-yt-vid')">yt-videos</button>
-        <button class="tablinks" onclick="openMainList(event, 'w-m-d')">music & dance</button>
+        <button class="tablinks" onclick="openMainList(event, 'w-yt')">youtube corner</button>
     </div>
     <!--ends | wander-->
 
@@ -190,34 +182,6 @@
 <!--start | learn > science > physics-->
 <div id="physics" class="listContent center">
     
-
-        <ul id="section-head">
-            <li><span class="caret">VIDEO <span class="tags">02</span></span>
-                <ul class="nested">
-                <li>
-                    <a href="https://www.youtube.com/playlist?list=PLF_7kfnwLFCHjzvhflQjAOG97MgutH3Z5" target="_blank">
-                    Physics Wallah - Alakh Pandey</a>
-                    <span class="tags"> हिन्दी ; G-12</span>
-                    <span class="tooltip"> &#9910;
-                        <span class="tooltiptext">
-                            rkmnd'ed by:- r001 <br>
-                            "made me fall in love with physics again"
-                        </span>
-                    </span>
-                </li> 
-                <li>
-                    <a href="https://www.youtube.com/playlist?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e"
-                    target="_blank">Lectures by Walter Lewin </a>
-                    <span class="tags">ug</span>
-                    <span class="tooltip"> &#9910; 
-                        <span class="tooltiptext">   
-                        rkmnd'ed by :- r002
-                        </span>
-                    </span>
-                </li>
-                </ul>
-            </li>
-        </ul>
         <ul id="section-head">
             <li><span class="caret">COURSES<span class="tags">02</span></span>
             <ul class="nested">
@@ -226,9 +190,7 @@
                     target="_blank">Physics | MIT OpenCourseWare  </a>
                     <span class="tags">ug/pg ; web</span>
                     <span class="tooltip"> &#9910;
-                        <span class="tooltiptext">   
-                        rkmnd'ed by :- r001
-                        </span>
+                        [r001]
                     </span>
                 </li> 
                 <li>
@@ -272,9 +234,7 @@
                         target="_blank">Wikipedia  </a>
                         <span class="tags">multi-lang</span>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li>   
                 </ul>
@@ -288,9 +248,7 @@
                         target="_blank">Light and Matter: open-source physics textbooks | Ben Crowell  </a>
                         <span class="tags">pdf</span>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li>
                     <li>
@@ -298,9 +256,7 @@
                         target="_blank">Books in Physics | Project Gutenberg  </a>
                         <span class="tags">web[h], pdf, epub</span>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li>  
                 </ul>
@@ -313,9 +269,7 @@
                         <a href="http://labman.phys.utk.edu/3D%20Physics/"
                         target="_blank">3D PHYSICS | The University of Tennessee  </a>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li> 
  
@@ -330,18 +284,14 @@
                         target="_blank">PhET Interactive Simulations  </a>
                         <span class="tags">multi-lang</span>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001  
-                            </span>
+                            [r001]
                         </span>
                     </li> 
                     <li>
                         <a href = "https://ophysics.com/"
                         target="_blank">oPhysics: Interactive Phy. Sim.  </a>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li> 
                     <li>
@@ -349,9 +299,7 @@
                         target="_blank">my Physics Lab  </a>
                         <span class="tags">en/de</span>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li> 
 
@@ -367,9 +315,7 @@
                         target="_blank">arXiv  </a>
                         <span class="tags">pdf</span>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li>  
                 </ul>
@@ -382,32 +328,48 @@
                         <a href="https://physics.stackexchange.com/"
                         target="_blank">Physics Stack Exchange  </a>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li> 
                     <li>
                         <a href="https://www.reddit.com/r/Physics/"
                         target="_blank">r/Physics  </a>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li>
                     <li>
                         <a href="https://www.reddit.com/r/AskPhysics"
                         target="_blank">r/AskPhysics  </a>
                         <span class="tooltip"> &#9910;
-                            <span class="tooltiptext">   
-                            rkmnd'ed by :- r001
-                            </span>
+                            [r001]
                         </span>
                     </li>   
                 </ul>
                 </li>
         </ul>
+        <ul id="section-head">
+            <li><span class="caret">MAGAZINE<span class="tags">02</span></span>
+            <ul class="nested">
+                <li>
+                    <a href="https://www.quantamagazine.org/physics/"
+                    target="_blank">Quanta Magazine</a>
+                    <span class="tags">en</span>
+                    <span class="tooltip"> &#9910;
+                        [r001]
+                    </span>
+                </li>
+                <li>
+                    <a href="https://cosmosmagazine.com/science/physics/"
+                    target="_blank">Cosmos Magazine</a>
+                    <span class="tags">en</span>
+                    <span class="tooltip"> &#9910;
+                        [r001]
+                    </span>
+                </li>  
+            </ul>
+            </li>
+    </ul>
 </div>
 <!--ends | learn > science > physics-->
 
@@ -437,8 +399,8 @@
         <ul class="nested">
             <li>
                 <a href="https://youtube.com/playlist?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW"target="_blank">Mike Dane</a>
-                    <span class="tags">beginner
-                    </span><span class="tooltip"> &#9910;
+                    <span class="tags">beginner</span>
+                    <span class="tooltip"> &#9910;
                         <span class="tooltiptext">   
                                     rkmnd'ed by :- r001<br>  
             *A good entry level playlist for python.
@@ -451,8 +413,8 @@
             <li>
                 <a href="https://youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB"target="_blank">
                 freecodecamp.org</a>
-                    <span class="tags">all level
-                    </span><span class="tooltip"> &#9910;
+                    <span class="tags">all level</span>
+                    <span class="tooltip"> &#9910;
                         <span class="tooltiptext">   
                                     rkmnd'ed by :- r001<br>  
             A playlist of of all the freecodecamp python courses<br><b>by different content creators</b>
@@ -474,8 +436,8 @@
             <li>
                 <a href="https://www.youtube.com/c/buildwithpython/playlists?view=50&sort=dd&shelf_id=3"target="_blank">
                 buildwithpython</a>
-                    <span class="tags">intermediate
-                    </span><span class="tooltip"> &#9910;
+                    <span class="tags">intermediate</span>
+                    <span class="tooltip"> &#9910;
                         <span class="tooltiptext">   
                                     rkmnd'ed by :- r001<br>  
             Contains videos for different project
@@ -515,9 +477,7 @@
                         target="_blank">Think Python 2e</a>
                             <span class="tags">beginner ; web[H], pdf</span>
                             <span class="tooltip"> &#9910;
-                                <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001
-                                </span>
+                                [r001]
                             </span>
                     </li> 
                     <li>DATA SCIENCE IN PYTHON</li>   
@@ -527,9 +487,7 @@
                         </a>
                             <span class="tags">intermediate ; web[G,C]. ipynb, pdf-print
                             </span><span class="tooltip"> &#9910;
-                                <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001
-                            </span>
+                                [r001]
                     </span>
                     </li> 
                     <li>
@@ -538,9 +496,7 @@
                         </a>
                             <span class="tags">advance ; web[G,C], ipynb. pdf
                             </span><span class="tooltip"> &#9910;
-                                <span class="tooltiptext">   
-                                            rkmnd'ed by :- r001
-                            </span>
+                                [r001]
                         </span>
                     </li>
 
@@ -557,18 +513,14 @@
                 <a href="https://stackoverflow.com/questions/tagged/python"
                 target="_blank">Stack Overflow</a>
                 <span class="tooltip"> &#9910;
-                    <span class="tooltiptext"> 
-                        rkmnd'ed by :- r001
-                    </span>
+                    [r001]
                 </span>
             </li> 
             <li>
                 <a href="https://www.reddit.com/r/learnpython/"
                 target="_blank">r/learnpython</a>
                 <span class="tooltip"> &#9910;
-                    <span class="tooltiptext">   
-                        rkmnd'ed by :- r001
-                    </span>
+                    [r001]
                 </span>
             </li>   
         </ul>
@@ -585,17 +537,23 @@
 
 <div id="ai" class="listContent center">
     <ul id="section-head">
-        <li><span class="caret">VIDEOS<span class="tags">01</span></span>
+        <li><span class="caret">VIDEOS<span class="tags">02</span></span>
             <ul class="nested">
                 <li>
                     <a href="https://www.youtube.com/user/keeroyz" target="_blank">Two Minute Papers</a>
                     <span class="tags"> intermediate</span>
                     <span class="tooltip"> &#9910;
-                        <span class="tooltiptext">
-                            rkmnd'ed by:- r001 <br>
-                        </span>
+                          [r001]
                     </span>
                 </li>
+                <li>
+                    <a href="https://www.youtube.com/c/YannicKilcher" target="_blank">Yannic Kilcher</a>
+                    <span class="tags"> intermediate</span>
+                    <span class="tooltip"> &#9910;
+                          [r002]
+                    </span>
+                </li>
+                
             </ul>
         </li>
     </ul>
@@ -607,9 +565,7 @@
                         Machine Learning Crash Course | Google Developers</a>
                     <span class="tags"> multi-lang, bg, web</span>
                     <span class="tooltip"> &#9910;
-                        <span class="tooltiptext">
-                            rkmnd'ed by:- r001 <br>
-                        </span>
+                        [r001]
                     </span>
                 </li>
                 <li>
@@ -617,9 +573,7 @@
                         Machine Learning for Beginners | Microsoft</a>
                     <span class="tags"> multi-lang, bg, web[Github]</span>
                     <span class="tooltip"> &#9910;
-                        <span class="tooltiptext">
-                            rkmnd'ed by:- r001 <br>
-                        </span>
+                          [r001]
                     </span>
                 </li>
             </ul>
@@ -633,9 +587,7 @@
                         Elements of AI - A free online introduction to AI for non-experts</a>
                     <span class="tags"> multi-lang, bg</span>
                     <span class="tooltip"> &#9910;
-                        <span class="tooltiptext">
-                            rkmnd'ed by:- r001 <br>
-                        </span>
+                          [r001]
                     </span>
                 </li>
             </ul>
@@ -649,9 +601,7 @@
                 target="_blank">arXiv  </a>
                 <span class="tags">pdf</span>
                 <span class="tooltip"> &#9910;
-                    <span class="tooltiptext">   
-                    rkmnd'ed by :- r001
-                    </span>
+                      [r001]
                 </span>
             </li>  
         </ul>
@@ -664,36 +614,28 @@
                 <a href="https://ai.stackexchange.com/"
                 target="_blank">Artificial Intelligence Stack Exchange</a>
                 <span class="tooltip"> &#9910;
-                    <span class="tooltiptext">   
-                    rkmnd'ed by :- r001
-                    </span>
+                      [r001]
                 </span>
             </li> 
             <li>
                 <a href="https://www.reddit.com/r/artificial/"
                 target="_blank">r/artificial </a>
                 <span class="tooltip"> &#9910;
-                    <span class="tooltiptext">   
-                    rkmnd'ed by :- r001
-                    </span>
+                      [r001]
                 </span>
             </li> 
             <li>
                 <a href="https://www.reddit.com/r/MachineLearning"
                 target="_blank">r/MachineLearning</a>
                 <span class="tooltip"> &#9910;
-                    <span class="tooltiptext">   
-                    rkmnd'ed by :- r001
-                    </span>
+                      [r001]
                 </span>
             </li>
             <li>
                 <a href="https://www.reddit.com/r/learnmachinelearning/"
                 target="_blank">r/learnmachinelearning </a>
                 <span class="tooltip"> &#9910;
-                    <span class="tooltiptext">   
-                    rkmnd'ed by :- r001
-                    </span>
+                      [r001]
                 </span>
             </li> 
             
@@ -779,60 +721,28 @@
 
     </ul>
 </div>
-<div id="w-yt-ch" class="listContent w-center">
+<div id="w-yt" class="listContent w-center">
     <ul class="w-list">
-        <li  class="w-caret last-up">
-            &#9910; CHANNELS &#9910;
-        </li>
-        <li  class="w-caret">
-            <a href="https://www.youtube.com/c/veritasium"
-            target="_blank">Veritasium</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://www.youtube.com/user/Kurzgesagt"
-            target="_blank">Kurzgesagt – In a Nutshell</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://www.youtube.com/c/PrimerLearning"
-            target="_blank">Primer</a>
-        </li> 
-        <li  class="w-caret">
-            <a href="https://www.youtube.com/playlist?list=PLZRRxQcaEjA5WaVaMtEB86yVXSH-XZ8eT"
-            target="_blank">Vsauce</a>
-        </li> 
-        <li  class="w-caret">
-            <a href="https://www.youtube.com/user/dominicwalliman"
-            target="_blank">DoS - Domain of Science</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://www.youtube.com/user/captainranic"
-            target="_blank">Jared Owen</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://www.youtube.com/c/JohnnyHarrisvox"
-            target="_blank">Johnny Harris</a>
-        </li>
         <li  class="w-caret">
             ...
         </li>
         <li  class="w-caret">
-        <a href="https://www.youtube.com/channel/UCz4a7agVFr1TxU-mpAP8hkw"
-            target="_blank">Soch by Mohak Mangal</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://www.youtube.com/channel/UCatL-c6pmnjzEOHSyjn-sHA"
-                target="_blank">Khan GS Research Centre</a>
-        </li>
-        <li  class="w-caret">
-            ...
-        </li> 
-        <li  class="w-caret last-up">
-            VIEW CHANNEL LIST
-        </li>  
-         <li  class="w-caret">
             <a href="https://www.youtube.com/channel/UC1OjqRZK0Zp1SRiNixOqmPg/channels?view=49&shelf_id=1"
-            target="_blank">View this List @ <span style="vertical-align:sub;">
+            target="_blank">Awesome YouTube Channels @ <span style="vertical-align:sub;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span></a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/playlist?list=PL9Lv6hvj6_Db60J-84es5xPIYZyWfTcc9"
+            target="_blank">YouTube videos Goldmine @ <span style="vertical-align:sub;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span></a>
+        </li>
+        <li  class="w-caret">
+            <a href="https://www.youtube.com/playlist?list=PL9Lv6hvj6_DbN9UW7QRyQhMaopjPDLNqj"
+            target="_blank">Music & Dance from Around the world @ <span style="vertical-align:sub;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span></a>
+        </li>
+        <li  class="w-caret">
+            ...
         </li>
         <li  class="w-caret last-up">
             CONTRIBUTE
@@ -843,131 +753,7 @@
         </li>   
     </ul>
 </div>
-<div id="w-yt-vid" class="listContent w-center">
-    <ul class="w-list">
-        <li  class="w-caret last-up">
-            &#9910; VIDEOS &#9910;
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/ZYGd-llxHJE"
-            target="_blank">How one NASA image tells dozens of stories</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/xP5-iIeKXE8"
-            target="_blank">Life in Life</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/cDUs6BEIZLU"
-            target="_blank">World's Smartest Environment Heroes</a>
-        </li> 
-        <li  class="w-caret">
-            ...
-        </li>
-        <li  class="w-caret last-up">
-            VIEW PLAYLIST
-        </li>  
-         <li  class="w-caret">
-            <a href="https://www.youtube.com/playlist?list=PL9Lv6hvj6_Db60J-84es5xPIYZyWfTcc9"
-            target="_blank">View this Playlist @ <span style="vertical-align:sub;">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span></a>
-        </li>
-        <li  class="w-caret last-up">
-            CONTRIBUTE
-        </li>
-        <li  class="w-caret">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQxaee950iUQYHySaUTv_0uANHAxilkBgt7svelT875wcIVw/viewform?usp=sf_link"
-            target="_blank">Add one yourself <span class="tags">Google Form</span></a>
-        </li>
-    </ul>
-</div>
-<div id="w-m-d" class="listContent w-center">
-    <ul class="w-list">
-        <li  class="w-caret last-up">
-            &#9910; MUSIC VIDEOS &#9910;
-        </li>
-        <li  class="w-caret ">
-            <a href="https://youtu.be/ENETOpNpIiI"
-            target="_blank">Johann Strauss II - An der schönen, blauen Donau - Walzer, Op. 314</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/0RDI9CMilhk"
-            target="_blank">Kun Faya Kun - Rockstar</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/STsCWx_DbOo"
-            target="_blank">O Mere Dil Ke Chain</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/m-PJmmvyP10"
-            target="_blank">Alan Walker - Different World feat. Sofia Carson, K-391 & CORSAK</a>
-        </li>  
-        <li  class="w-caret">
-            <a href="https://youtu.be/PYI09PMNazw"
-            target="_blank">The Ecstasy of Gold - Ennio Morricone</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/FM7MFYoylVs"
-            target="_blank">The Chainsmokers & Coldplay - Something Just Like This</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/3AtDnEC4zak"
-            target="_blank">Charlie Puth - We Don't Talk Anymore (ft. Selena Gomez)</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtube.com/playlist?list=PLXGSkM44ouicZCGm2tHHyz89otXKe8sO0"
-            target="_blank">LEMMiNO Music - Nova (Playlist)</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/psuRGfAaju4"
-            target="_blank">Owl City - Fireflies</a>
-        </li> 
-        <li  class="w-caret">
-            <a href="https://youtu.be/wF_B_aagLfI"
-            target="_blank">Teri Mitti - Kesari</a>
-        </li> 
-        <li  class="w-caret">
-            <a href="https://youtu.be/Ss2-Ds9IV-g"
-            target="_blank">Marshmello & Demi Lovato - OK Not To Be OK (Lost Stories Remix)</a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://youtu.be/n7eq3E9zE2Y"
-            target="_blank">Marshmello, Halsey - Be Kind</a>
-        </li>
-        <li  class="w-caret">
-            ...
-        </li> 
-        <li  class="w-caret last-up">
-            &#9910; DANCE VIDEOS &#9910;
-        </li> 
-        <li  class="w-caret">
-            <a href="https://youtu.be/ua95fPR6HC8"
-            target="_blank">Черкесский (адыгский) танец ЛЪАПЭРИСЭ,Caucasian dance</a>
-        </li> 
-        <li  class="w-caret">
-            ...
-        </li> 
-        <li  class="w-caret last-up">
-            VIEW PLAYLIST
-        </li>  
-         <li  class="w-caret">
-            <a href="https://www.youtube.com/playlist?list=PL9Lv6hvj6_DbN9UW7QRyQhMaopjPDLNqj"
-            target="_blank">View Music Playlist @ <span style="vertical-align:sub;">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span></a>
-        </li>
-        <li  class="w-caret">
-            <a href="https://www.youtube.com/playlist?list=PL9Lv6hvj6_Db6i5dD1FyDX4C64Dod7LVn"
-            target="_blank">View Dance Playlist @ <span style="vertical-align:sub;">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="height:24px;"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span></a>
-        </li>
-        <li  class="w-caret last-up">
-            CONTRIBUTE
-        </li>
-        <li  class="w-caret">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQxaee950iUQYHySaUTv_0uANHAxilkBgt7svelT875wcIVw/viewform?usp=sf_link"
-            target="_blank">Add one yourself <span class="tags">Google Form</span></a>
-        </li> 
-    </ul>
-</div>
+
 <!--ends | wander section-->
 
 
@@ -1050,7 +836,7 @@ align-items: center;">
 	  });
 	}
 
-    document.getElementById("demo").innerHTML = "Paragraph changed!";
+    
 
 </script>  
 
