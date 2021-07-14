@@ -8,11 +8,7 @@ function closeNav() {
   document.getElementById("main").style.display = "block";
 }
 
-function nightie() {
-  var toChange = "mainheader";
-  document.getElementById(toChange).style.backgroundColor = "inherit";
-  document.getElementById(toChange).style.color = "white";
-}
+
 
 function openCat(evt, catName){
     var i, category,discipline,listContent, tablinks;
