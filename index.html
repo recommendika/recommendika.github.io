@@ -65,7 +65,6 @@
 <div class="main-list center">
     <div class="main-sel">
         <button class="tablinks" onclick="openCat(event, 'learn')">learn </button>
-        <button class="tablinks" onclick="openCat(event, 'create')">create  </button>
         <button class="tablinks" onclick="openCat(event, 'wander')">#wander</button>
         <button class="tablinks" onclick="openMainList(event, 'tagsINFO')"><span style="font-size: xx-large;color: yellow;"> &#9888;</span></button>
         
@@ -78,19 +77,11 @@
     <div id="learn" class="category">
         <button class="tablinks" onclick="openDis(event, 'science')">science & maths (16)</button>
         <button class="tablinks" onclick="openDis(event, 'cs')">computer science (19)  </button>
-        <button class="tablinks" onclick="openDis(event, 'humanities')">humanities  </button>
-        <button class="tablinks" onclick="openDis(event, 'arts')">art  </button>
-        <button class="tablinks" onclick="openDis(event, 'language')">language  </button>
+        <!-- <button class="tablinks" onclick="openDis(event, 'humanities')">humanities  </button> -->
+        <!-- <button class="tablinks" onclick="openDis(event, 'arts')">art  </button> -->
+        <!-- <button class="tablinks" onclick="openDis(event, 'language')">language  </button> -->
     </div>
     <!--ends | learn-->
-
-    <!--start | create-->
-    <div id="create" class="category">
-        <button class="tablinks" onclick="openDis(event, 'cr-arts')">art</button>
-        <button class="tablinks" onclick="openDis(event, 'cr-prog')">programs</button>
-    </div>
-    <!--ends | create-->
-
     
 
     <!--start | wander-->
@@ -132,37 +123,30 @@
     <!--ends | learn > cs-->
 
     <!--start | learn > humanities-->
-    <div id="humanities" class="discipline">
+    <!-- <div id="humanities" class="discipline">
         <button class="tablinks" onclick="openMainList(event, 'psychology')">psychology</button>
         <button class="tablinks" onclick="openMainList(event, 'economics')">economics</button>
         <button class="tablinks" onclick="openMainList(event, 'geography')">geography</button>
         <button class="tablinks" onclick="openMainList(event, 'history')">history</button>
         <button class="tablinks" onclick="openMainList(event, 'civics')">civics</button>
-    </div>
+    </div> -->
     <!--ends | learn > humanities-->
 
     <!--start | learn > arts-->
-    <div id="arts" class="discipline">
+    <!-- <div id="arts" class="discipline">
         <button class="tablinks" onclick="openMainList(event, 'music-l')">music prod.</button>
         <button class="tablinks" onclick="openMainList(event, 'video-l')">video prod.</button>
         <button class="tablinks" onclick="openMainList(event, '2d-l')">2d animation</button>
         <button class="tablinks" onclick="openMainList(event, '3d-l')">3d animation</button>
-    </div>
+    </div> -->
     <!--ends | learn > arts-->
 
     <!--start | learn > language-->
-    <div id="language" class="discipline">
+    <!-- <div id="language" class="discipline">
         <button class="tablinks" onclick="openMainList(event, 'sanskrit')">संस्कृत</button>
         <button class="tablinks" onclick="openMainList(event, 'sign-lang')">sign language</button>
-    </div>
+    </div> -->
     <!--ends | learn > language-->
-
-
-    <!--start | create > programs-->
-    <div id="cr-prog" class="discipline">
-        <button class="tablinks" onclick="openMainList(event, 'cr-prog-lan-ind')">language independent</button>
-    </div>
-    <!--ends | create > program-->
 
 
 
@@ -198,15 +182,7 @@
                     target="_blank">Physics | Open Yale Courses</a>
                     <span class="tags">ug ; web</span>
                     <span class="tooltip"> &#9910;
-                        <span class="tooltiptext">   
-                        rkmnd'ed by :- r001<br>...<br>
-                        "Contains a total of 49 lectures divided into two courses<br>
-                        Fundamental Of physics I (24) and FOPhy II (25)<br>
-                        Other features include : <br>
-                        closed captioned<br>
-                        problem set & solutions (pdf) for every lecture.<br>
-                        Audio transcript (html), Audio file (mp3)"<br>
-                        </span>
+                        [r001]
                     </span>
                 </li> 
             </ul>
